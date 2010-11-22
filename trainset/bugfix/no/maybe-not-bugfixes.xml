@@ -1,0 +1,3023 @@
+<?xml version='1.0' standalone='yes'?>
+<log>
+  <logentry revision="4039">
+    <msg>[#11173] Remove test code added in r4038.
+</msg>
+    <date>2010-11-10T01:30:06.655236Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4037">
+    <msg>merged from trunk/nforge to 3.0-access-control
+
+ * r4035: [#12021] Replace get_milestone_theme_path() with get_plugin_theme_path() and remove get_milestone_theme_path().
+</msg>
+    <date>2010-11-09T12:08:39.145236Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4036">
+    <msg>merged from trunk/nforge to 2.8-stable
+
+ * r4035: [#12021] Replace get_milestone_theme_path() with get_plugin_theme_path() and remove get_milestone_theme_path().
+</msg>
+    <date>2010-11-09T11:52:03.646214Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4035">
+    <msg>[#12021] Replace get_milestone_theme_path() with get_plugin_theme_path() and remove get_milestone_theme_path().</msg>
+    <date>2010-11-09T11:50:57.353845Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4034">
+    <msg>[#11170] Remove an assertion that delete_artifact() returns false when $confirm_delete is false; The function never returns false.
+</msg>
+    <date>2010-11-09T11:05:46.784865Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4027">
+    <msg>[#5504] Replace Exception thrown by ArtifactType::fetchData() with DatabaseException and NotFoundException.</msg>
+    <date>2010-11-09T10:03:19.384093Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4026">
+    <msg>[#11170] Use isAllowed() to check anonymous permission, instead of AritfactType::allowsAnon().</msg>
+    <date>2010-11-09T09:12:50.902839Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4025">
+    <msg>[#10511] Replace exit_error() with throwing exception in update_monitor()</msg>
+    <date>2010-11-09T09:01:29.199245Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4024">
+    <msg>merged from trunk/nforge to 3.0-access-control
+
+ * r4023: [#5504] While deleting a member, throw DatabaseException when an error occurs in database and log only when there is no record matched by given $user_id in user_group table.
+</msg>
+    <date>2010-11-09T08:55:32.764289Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4022">
+    <msg>[#11170] Add some assertions into tracker test to check regression error caused by new Access Control.</msg>
+    <date>2010-11-09T08:47:14.051351Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4021">
+    <msg>[#10511] Replace exit_error() with throwing exception in post_artifact()</msg>
+    <date>2010-11-09T08:43:25.953018Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4020">
+    <msg>[#5463] Unify some code for generating submenu. The code had been branched by tracker type, and had many duplication lines.</msg>
+    <date>2010-11-09T08:26:14.321738Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4019">
+    <msg>merged from trunk/nforge to 3.0-access-control
+
+ * r4018: [#11851] Change the verion of nforge in trunk from 2.7-dev to 3.0-dev.
+</msg>
+    <date>2010-11-09T08:08:24.309485Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4018">
+    <msg>[#11851] Change the verion of nforge in trunk from 2.7-dev to 3.0-dev.</msg>
+    <date>2010-11-09T08:05:09.773239Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4017">
+    <msg>[#5022] Exclude 1.0 theme files in unittest.
+</msg>
+    <date>2010-11-09T08:02:25.714755Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4016">
+    <msg>merged from trunk/nforge to 3.0-access-control
+
+ * r4015: [#12040] Remove unnecessary validations for new Aritfact instance.
+</msg>
+    <date>2010-11-09T07:41:31.774301Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4015">
+    <msg>[#12040] Remove unnecessary validations for new Aritfact instance.</msg>
+    <date>2010-11-09T07:39:01.260909Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4011">
+    <msg>[#11170] Make test_edit_comment() test edit_comment(). It had been not tested because of a permission issue.</msg>
+    <date>2010-11-08T02:33:16.571299Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4010">
+    <msg>[#11176] Remove legacy functions related access control.</msg>
+    <date>2010-11-05T06:50:20.356326Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4009">
+    <msg>[#11825] Add an option to specify sprint.</msg>
+    <date>2010-11-04T10:07:27.780892Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4006">
+    <msg>[#10833] Apply new layout for notification message into user register page.</msg>
+    <date>2010-11-04T09:08:25.687000Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4005">
+    <msg>[#10833] Extract notification template as notification.tpl from Layout.tpl.</msg>
+    <date>2010-11-04T09:05:03.705713Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3997">
+    <msg>[#11171] Add anonymous, nonmember privileges processing, when frsPublic is 0</msg>
+    <date>2010-11-03T09:03:10.265171Z</date>
+    <author>thegper1</author>
+  </logentry>
+  <logentry revision="3996">
+    <msg>[#11171] Modify the permission check for release add, edit, delete</msg>
+    <date>2010-11-03T07:49:55.989531Z</date>
+    <author>thegper1</author>
+  </logentry>
+  <logentry revision="3993">
+    <msg>[#11668] Hide Basic Admin role for Forum in Role Editor beacuse the role is the same as Writer role.</msg>
+    <date>2010-11-02T13:18:29.689757Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3990">
+    <msg>[#11171] Add anonymous user checking</msg>
+    <date>2010-11-02T12:25:47.665264Z</date>
+    <author>thegper1</author>
+  </logentry>
+  <logentry revision="3988">
+    <msg>[#11171] Modify the permission check for comment write, delete</msg>
+    <date>2010-11-02T11:29:16.417419Z</date>
+    <author>thegper1</author>
+  </logentry>
+  <logentry revision="3987">
+    <msg>[#11169] Add allow nonmember and anonymous for frs</msg>
+    <date>2010-11-02T11:27:08.786265Z</date>
+    <author>thegper1</author>
+  </logentry>
+  <logentry revision="3984">
+    <msg>[#11171] Add file for frs common permission check</msg>
+    <date>2010-11-02T08:44:42.827093Z</date>
+    <author>thegper1</author>
+  </logentry>
+  <logentry revision="3983">
+    <msg>[#11171] Modify the permission check for frs note_read, edit, delete</msg>
+    <date>2010-11-02T08:40:57.108459Z</date>
+    <author>thegper1</author>
+  </logentry>
+  <logentry revision="3982">
+    <msg>[#11171] Check if read access privileges to download non-member</msg>
+    <date>2010-11-02T06:20:39.953394Z</date>
+    <author>thegper1</author>
+  </logentry>
+  <logentry revision="3979">
+    <msg>[#11169] Add roles for frs</msg>
+    <date>2010-11-01T15:21:31.703735Z</date>
+    <author>thegper1</author>
+  </logentry>
+  <logentry revision="3978">
+    <msg>[#11172] upgrade script for new access control.
+
+[#11173] Acl can convert
+ * legacy role data to new role data
+ * new role data to legacy role data
+And also read both of them from database.
+
+[#11175] Role Editor stores role data in
+ * new Access Control format
+and read role data in both of 
+ * new Access Control format
+ * legacy format</msg>
+    <date>2010-11-01T10:02:41.918385Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3975">
+    <msg>[#11169] Refactor a routine that handles owner&apos;s permission, not via Zend_Acl.</msg>
+    <date>2010-10-29T09:00:06.903400Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3974">
+    <msg>[#11169] Add tests that owner and anonymous have right permissions. And improve a test for permissions of Site Administrator.</msg>
+    <date>2010-10-29T07:36:07.495273Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3972">
+    <msg>[#11169] Use $ower_permissions[&apos;forum&apos;] instead of $owner_permissions[&apos;forum_comment&apos;] when checking owner&apos;s permission.
+</msg>
+    <date>2010-10-29T05:56:59.172479Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3971">
+    <msg>[#11169] [#11170] Remove unused tracker_*_own_* permissions.</msg>
+    <date>2010-10-29T05:51:35.362896Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3970">
+    <msg>[#11169] Hide delete-button for attachment in comment correctly, when the user does not have right permission
+</msg>
+    <date>2010-10-29T03:16:50.977732Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3968">
+    <msg>[#11169] Add svn keywords for keyword substitution.
+</msg>
+    <date>2010-10-28T12:55:37.495659Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3967">
+    <msg>[#11169] Add some comments into Acl class.
+</msg>
+    <date>2010-10-28T12:46:52.344193Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3966">
+    <msg>[#11170] Remove unused is_editable()</msg>
+    <date>2010-10-28T12:08:56.549560Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3965">
+    <msg>[#11169] Rollback a line of code committed in r3964 by mistake.</msg>
+    <date>2010-10-28T11:45:57.977188Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3964">
+    <msg>[#11169] Add test that check resources are added properly into a project.</msg>
+    <date>2010-10-28T11:44:21.361565Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3963">
+    <msg>[#11170] Remove unused $tracker object added in r3956
+</msg>
+    <date>2010-10-28T11:38:32.333228Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3962">
+    <msg>[#11169] Extract AclTest form UserTest.</msg>
+    <date>2010-10-28T11:21:31.330290Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3961">
+    <msg>[#11170] Remove some wrong characters added by mistake in r3949
+</msg>
+    <date>2010-10-28T11:06:44.592381Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3960">
+    <msg>merged from trunk/nforge to 3.0-access-control
+
+ * r3959: [#11411] Remove sleeping 1sec for each updating when testing artifact update. It is not needed anymore.
+</msg>
+    <date>2010-10-28T10:27:33.714860Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3959">
+    <msg>[#11411] Remove sleeping 1sec for each updating when testing artifact update. It is not needed anymore.</msg>
+    <date>2010-10-28T10:27:00.585484Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3958">
+    <msg>[#11169] Remove unused test for Zend_Acl_Role.</msg>
+    <date>2010-10-28T10:19:31.197985Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3957">
+    <msg>[#11169] Add a test for Acl::isSiteAdmin()</msg>
+    <date>2010-10-28T10:18:28.908856Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3956">
+    <msg>[#11170] Apply new access control using Acl to tracker.</msg>
+    <date>2010-10-28T10:14:32.369896Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3955">
+    <msg>merged from trunk/nforge to 3.0-access-control
+
+ * r3954: [#11409] Remove a calling of var_export() to prevent nesting level too deep error.
+</msg>
+    <date>2010-10-28T10:12:22.347302Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3954">
+    <msg>[#11409] Remove a calling of var_export() to prevent nesting level too deep error.</msg>
+    <date>2010-10-28T10:01:18.797224Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3953">
+    <msg>[#11170] Simplify ArtifactType::userIsAdmin() with new ArtfactType::isAllowed().</msg>
+    <date>2010-10-28T09:45:48.936164Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3952">
+    <msg>[#11170] Simplify ArtifactType::userCanView() with new ArtfactType::isAllowed().</msg>
+    <date>2010-10-28T09:45:06.844162Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3951">
+    <msg>[#11170] Rollback a line of code added by mistake at r3950.</msg>
+    <date>2010-10-28T09:42:13.912954Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3950">
+    <msg>[#11170] Add isAllowed() into ArtifactType. This is eaiser way to check tracker permission than to do that with Acl::isAllowed().</msg>
+    <date>2010-10-28T09:40:13.640598Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3949">
+    <msg>[#11170] Artifact and ArtifactMessage class implements Zend_Acl_Resource_Interface.</msg>
+    <date>2010-10-28T09:32:20.634217Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3948">
+    <msg>merged from trunk/nforge to 3.0-access-control
+
+ * r3947: [#11398] Restore is_editable() removed at r3945. The function is used still.
+</msg>
+    <date>2010-10-28T08:32:58.255644Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3947">
+    <msg>[#11398] Restore is_editable() removed at r3945. The function is used still.
+</msg>
+    <date>2010-10-28T08:30:47.508271Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3946">
+    <msg>merged from trunk/nforge to 3.0-access-control
+
+ * r3945: [#11398] Unify browser title for artifact page and also remove unused is_editable()
+</msg>
+    <date>2010-10-28T07:32:10.150976Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3945">
+    <msg>[#11398] Unify browser title for artifact page and also remove unused is_editable()</msg>
+    <date>2010-10-28T07:28:24.545023Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3944">
+    <msg>[#11169] Code gardening; remove an empty line and add whitespaces around equal operator.
+</msg>
+    <date>2010-10-28T07:02:51.734127Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3942">
+    <msg>[#11169] remove an improper comment. AddRoleFromlegacyData add roles related every resources not only tracker.
+</msg>
+    <date>2010-10-28T06:38:16.550886Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3941">
+    <msg>[#11169] Add some comments
+</msg>
+    <date>2010-10-28T06:35:14.799257Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3940">
+    <msg>[#11169] Fix a comment correctly.
+</msg>
+    <date>2010-10-28T06:34:27.591408Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3939">
+    <msg>[#11169] remove unused permission arrays.
+</msg>
+    <date>2010-10-28T06:33:20.381861Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3938">
+    <msg>[#11169] Add owner roles and their handlers, to treat permissions of artifact/comment submitters correctly.
+</msg>
+    <date>2010-10-28T06:30:56.169568Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3937">
+    <msg>[#11169] include tracker_util.php to use is_forum()
+</msg>
+    <date>2010-10-28T06:27:16.938617Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3936">
+    <msg>[#11169] Use string instead of Zend_Acl_Role as role object beacuse it is simpler.
+</msg>
+    <date>2010-10-28T06:26:26.303347Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3935">
+    <msg>[#11169] Add access control for Site Administrator
+ * Acl::__construct() add &apos;siteadmin&apos; for Site Administrator as default role
+ * Acl::isAllowed() can classify whether a user is Site Administrator or not and handle his/her permissions properly.
+ * Permission arrays are merged for easy allowing Site Administartor&apos;s permissions
+</msg>
+    <date>2010-10-28T06:21:53.323985Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3934">
+    <msg>[#11169] Remove duplicated calling of getArtifactTypes().
+</msg>
+    <date>2010-10-28T04:45:58.787228Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3933">
+    <msg>[#11169] Remove wrong whitespace characters in permissions.
+</msg>
+    <date>2010-10-28T04:44:02.701139Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3932">
+    <msg>[#11381] Add an option to specify beginning estimated hours of the sprint. The guildeline is based on the hours.</msg>
+    <date>2010-10-28T03:18:26.539345Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3929">
+    <msg>[#9519] tune-up Base.tab msgs
+</msg>
+    <date>2010-10-27T17:42:28.938513Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3928">
+    <msg>[#9519] i18nize register form for the beaver theme.
+</msg>
+    <date>2010-10-27T17:24:59.604155Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3927">
+    <msg>merged from trunk to 2.7-stable
+
+ * r3926 [#11313] use htmlspecialchars() instead of htmlentities()
+</msg>
+    <date>2010-10-27T16:59:34.079477Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3926">
+    <msg>[#11313] use htmlspecialchars()
+</msg>
+    <date>2010-10-27T16:55:39.596004Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3925">
+    <msg>[#9519] i18nize login form for the beaver theme
+</msg>
+    <date>2010-10-27T16:52:04.906654Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3923">
+    <msg>[#11313] merged to 2.7-stable from trunk *3922</msg>
+    <date>2010-10-27T09:08:06.111900Z</date>
+    <author>thegper1</author>
+  </logentry>
+  <logentry revision="3922">
+    <msg>[#11313] Insert defending code against XSS attacks</msg>
+    <date>2010-10-27T08:34:00.666844Z</date>
+    <author>thegper1</author>
+  </logentry>
+  <logentry revision="3921">
+    <msg>[#11169] Add some assertions to test Acl::isAllowed().</msg>
+    <date>2010-10-26T08:52:24.975120Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3920">
+    <msg>[#11310] Translate many lines of message in Japanese. This language file is translated and reviewed by many contributors from NHN I&amp;S and NHN Japan.
+
+Thanks for translation, to JIHYUN KIM, TOMIHISA FUCHIMOTO, BUWON LEE, DONGSEOB KIM, INGYU CHOI, HYUNWOO JEONG from Game Platform Team and JINSUNG YOON from Technical Writing Team!
+
+Thanks for review, to ATSUSHI YAMAGUCHI and RYOHEI OIZAKI from Game Platform Team!</msg>
+    <date>2010-10-26T08:46:27.273828Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3919">
+    <msg>[#11169] Make Acl::isAllowed treats empty subject as Anonymous user for more flexibility.
+</msg>
+    <date>2010-10-26T02:41:22.628288Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3918">
+    <msg>[#11169] Add permission checking for Project Admin and Release. And override allow() method to prevent Zend_Acl::allow() treats empty privileges as almighty privilege.
+</msg>
+    <date>2010-10-26T02:37:02.725916Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3917">
+    <msg>[#11169] rename setBlahPermissions() to allowBlah() for clarity.
+</msg>
+    <date>2010-10-26T02:24:48.227205Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3916">
+    <msg>[#11169] Fix indentation
+</msg>
+    <date>2010-10-26T02:18:31.662436Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3915">
+    <msg>[#11169] remove dependency of AddRoleFromLegacyData() on ArtifactFactory
+</msg>
+    <date>2010-10-26T02:16:14.703940Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3914">
+    <msg>[#11169] implement Zend_Acl_Resource_Interface for Group class for permission checking for SCM added at r3912.</msg>
+    <date>2010-10-25T07:00:46.171953Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3913">
+    <msg>[#11169] Add some assertions to test permission checking for SCM added at r3912.</msg>
+    <date>2010-10-25T06:58:46.592422Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3912">
+    <msg>[#11169] Add permission settings for SCM into Acl::isAllowed()</msg>
+    <date>2010-10-25T06:52:04.110672Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3911">
+    <msg>[#11169] extract setTrackerPermissions() from isAllowed()
+</msg>
+    <date>2010-10-25T06:46:48.830432Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3910">
+    <msg>[#11169] Fix parameter names of Acl::ISAllowed(); swap second and third parameter.
+</msg>
+    <date>2010-10-25T06:35:56.710693Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3908">
+    <msg>[#11169] Load roles and permissions for tracker from legacy data of nforge2.</msg>
+    <date>2010-10-21T07:03:43.729085Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3907">
+    <msg>[#11169] Add some files missed at r3906.</msg>
+    <date>2010-10-21T03:10:26.267174Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3906">
+    <msg>[#11169] Add new Acl class for access control and some test.</msg>
+    <date>2010-10-21T03:08:54.764045Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3905">
+    <msg>[#11180] Rollback r3848, r3851, r3864 because these are not bug fixes.</msg>
+    <date>2010-10-20T09:03:00.099413Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3888">
+    <msg>[#11093] Branch branch/3.0-access-control from trunk/nforge.</msg>
+    <date>2010-10-18T02:07:30.897882Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3880">
+    <msg>tagging nforge-2.8.0-beta</msg>
+    <date>2010-10-08T07:25:47.175775Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3879">
+    <msg>add new ChangeLog</msg>
+    <date>2010-10-08T07:25:32.744402Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3878">
+    <msg>[#10887] change default theme for v2.8, from naver to theme.</msg>
+    <date>2010-10-08T07:19:57.361554Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3877">
+    <msg>[#10878] Branching 2.8-stable from 2.7-stable</msg>
+    <date>2010-10-08T06:59:24.355868Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3864">
+    <msg>[#3796] Apply new notification layout added at r3861 into also naver theme and beaver theme of 2.7-stable.</msg>
+    <date>2010-10-07T08:22:59.084901Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3861">
+    <msg>[#3796] Apply new layout for notification messages. Old alert messages will be replaced by this.</msg>
+    <date>2010-10-07T06:31:13.501223Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3848">
+    <msg>[#10011] editing beaver theme header, menu name</msg>
+    <date>2010-10-06T03:20:17.276032Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3836">
+    <msg>[#10690] Like r3835, remove unnecessary is_object() checks for xxx_get_object() functions because the function returns only an object or false.</msg>
+    <date>2010-10-05T02:00:37.810311Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3835">
+    <msg>[#10690] Remove unnecessary is_object() check for group_get_object() because the function returns only an object or false.</msg>
+    <date>2010-10-04T10:18:41.937383Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3833">
+    <msg>[#10686] Remove or replace with try/catch, calling of Error::getErrorMessage(), because almost of Error::setError() is replaced with exception throwing.
+[#5504] Remove some lines of unnecessary error handligs.
+
+</msg>
+    <date>2010-10-04T09:41:53.173025Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3832">
+    <msg>[#10685] Branch branch/3.0-dev from trunk/nforge
+</msg>
+    <date>2010-10-04T09:23:49.477899Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3831">
+    <msg>[#10533] Remove some failure-checks for _countFetchedRows(), _getArtifactsFromQuery() and _getNoticeArtifactsFromQuery() in getArtifacts() because they do not return false, but throw exception. And by the same token, remove the failure-check for getArtifacts().</msg>
+    <date>2010-10-03T08:20:39.933133Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3830">
+    <msg>[#6770] use util_make_url()
+</msg>
+    <date>2010-10-01T10:09:10.538955Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3829">
+    <msg>[#10581] remove unused and incompatible subroutine change_search_action()
+</msg>
+    <date>2010-10-01T09:28:10.845596Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3828">
+    <msg>[#9332] save the old body content and show diff of changed body.
+</msg>
+    <date>2010-10-01T09:08:59.416773Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3827">
+    <msg>[#6770] use utl_make_url()
+</msg>
+    <date>2010-10-01T09:02:45.498692Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3822">
+    <msg>[#10576] update version info
+</msg>
+    <date>2010-10-01T07:41:04.573234Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3821">
+    <msg>[#10516] Replace isError() calling with exception handling in tracker_gateway.</msg>
+    <date>2010-10-01T01:14:24.129395Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3820">
+    <msg>[#10533] use try/catch to check vaild user
+</msg>
+    <date>2010-09-30T09:34:50.469691Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3817">
+    <msg>[#10516] Remove some meaningless error checking releated to reporting modules.</msg>
+    <date>2010-09-30T07:42:21.385803Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3815">
+    <msg>[#10533] Remove some validations are not needed since r3812 and r3813
+</msg>
+    <date>2010-09-30T05:01:53.907238Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3814">
+    <msg>[#10533] Remove some validations with is_object() because r3812 and r3813 eliminate the need.</msg>
+    <date>2010-09-30T03:11:10.512243Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3813">
+    <msg>[#10533] group_get_object() throws exception, does not return false or null, when error is occured.</msg>
+    <date>2010-09-30T02:54:29.791929Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3812">
+    <msg>[#10533] user_get_object() throws exception, does not return false or null, when error is occured.</msg>
+    <date>2010-09-30T02:28:01.060561Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3810">
+    <msg>[#10516] Replace isError() calling with exception handling.</msg>
+    <date>2010-09-29T08:02:53.568797Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3809">
+    <msg>tagging nforge-2.7.1</msg>
+    <date>2010-09-29T01:43:56.079249Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3808">
+    <msg>add new ChangeLog</msg>
+    <date>2010-09-29T01:43:48.666574Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3807">
+    <msg>[#5504] Remove some meaningless exception throwings.</msg>
+    <date>2010-09-28T07:54:48.498331Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3806">
+    <msg>[#10445] Remove importing of date module. The module is unnecessary since r3805.</msg>
+    <date>2010-09-28T07:25:56.128548Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3803">
+    <msg>[#10445] Add options for begin-date and end-date
+[#10416] parse the argument for component-id as named option
+</msg>
+    <date>2010-09-28T05:10:24.999016Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3801">
+    <msg>[#10416] Add feature to generate burndown chart about issues for given component.</msg>
+    <date>2010-09-27T10:16:18.128712Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3800">
+    <msg>[#9457] image resize change project logo preview </msg>
+    <date>2010-09-27T03:13:40.143478Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3799">
+    <msg>[#6084] replace some html entities to xml entities</msg>
+    <date>2010-09-27T03:02:33.769397Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3796">
+    <msg>[#5504] Remove callers of isError() in milestone plugin.</msg>
+    <date>2010-09-20T06:18:19.681342Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3795">
+    <msg>[#5504] Replace exceptions thrown by Group with GroupException and exception_handler handles the exception with exit_no_group().</msg>
+    <date>2010-09-20T06:17:14.243780Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3794">
+    <msg>[#5504]
+ * Replace almost callers of setError() and setPermissionError() with Exceptions.
+ * Remove many lines of unused error handlings in tracker.
+ * Rename spam_filter::echoError to raiseError
+</msg>
+    <date>2010-09-20T05:44:12.701841Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3790">
+    <msg>[#5022] [#5109] Add a graph for eloc.</msg>
+    <date>2010-09-17T08:51:48.778672Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3789">
+    <msg>[#5022] [#5109] show lower limit of complexity in legend.</msg>
+    <date>2010-09-17T08:36:16.080186Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3788">
+    <msg>[#5022] [#5109] make code metrics graph more fancy with pngcairo.</msg>
+    <date>2010-09-17T08:07:57.907568Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3785">
+    <msg>[#9440] Remove some duplications.</msg>
+    <date>2010-09-17T03:08:45.798954Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3784">
+    <msg>[#9756] siteadmin page, editing message </msg>
+    <date>2010-09-17T03:06:57.406861Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3783">
+    <msg>[#9440] Add some assertions to test r3782</msg>
+    <date>2010-09-17T03:06:22.342254Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3781">
+    <msg>[#5504] Add UserException and replace some exceptions thrown by User class with UserException.</msg>
+    <date>2010-09-16T09:33:40.260496Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3780">
+    <msg>[#5022] [#5109] static-generate-plot.py computes eloc of global scope for itself, not using global-scope-codes.py.</msg>
+    <date>2010-09-16T08:37:46.429651Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3778">
+    <msg>[#5504] Replace setError-and-return-false with exception throwing.</msg>
+    <date>2010-09-16T06:09:24.021795Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3776">
+    <msg>[#9440] Refactoring: reduce complexity of get_issue() and get_issue_at()</msg>
+    <date>2010-09-15T14:03:21.682213Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3775">
+    <msg>[#9758] [#9756] merge worked beaver theme files</msg>
+    <date>2010-09-15T14:00:54.069329Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3774">
+    <msg>Site Manager menu, modify the template file for the application of naver theme and add, edit the language files.</msg>
+    <date>2010-09-15T13:06:48.000528Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3773">
+    <msg>[#9756] Site Manager menu, modify the template file for the application of beavers theme and add, edit the language files.</msg>
+    <date>2010-09-15T13:06:20.666543Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3772">
+    <msg>[#9756] Site Manager menu, add CSS file for the application of naver theme.</msg>
+    <date>2010-09-15T13:04:26.383535Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3771">
+    <msg>[#9756] Site Manager menu, add CSS file for the application of beavers theme.</msg>
+    <date>2010-09-15T13:03:45.285495Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3770">
+    <msg>[#9756] Add an image file for the application of beavers theme</msg>
+    <date>2010-09-15T13:01:46.731903Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3769">
+    <msg>[#9756] Add an image file for the application of beavers theme</msg>
+    <date>2010-09-15T12:59:54.054169Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3768">
+    <msg>[#9756] Apply a theme for a news-sharing capabilities improve, change the query location.</msg>
+    <date>2010-09-15T12:58:37.719465Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3767">
+    <msg>[#9756] Apply a theme for the code modification</msg>
+    <date>2010-09-15T12:56:57.518049Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3766">
+    <msg>[#9440] Add test file for r3761.</msg>
+    <date>2010-09-15T05:55:32.801124Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3765">
+    <msg>[#6084] deletion &apos;patch_html&apos; from reading artifact function on API</msg>
+    <date>2010-09-15T05:11:10.172789Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3762">
+    <msg>[#10102] update msgs
+</msg>
+    <date>2010-09-15T01:50:37.575524Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3761">
+    <msg>[#9440] Add test for r3759</msg>
+    <date>2010-09-15T01:39:01.924594Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3760">
+    <msg>[#9164] Correcting errors that occur while deleting posts</msg>
+    <date>2010-09-14T13:29:32.275054Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3759">
+    <msg>[#9440] Adjust layout for burndown chart
+ * Make it smaller.
+ * Write all labels with weak color except last one in each graph so that it would stick out.</msg>
+    <date>2010-09-14T04:40:47.847136Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3758">
+    <msg>[#9440] Make unimportant lines&apos; color weaker</msg>
+    <date>2010-09-13T08:56:42.589040Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3757">
+    <msg>[#9440] Add also data at present not only at each midnight.</msg>
+    <date>2010-09-13T08:50:08.422857Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3756">
+    <msg>[#9440] Use term pngcairo instead of term png.
+</msg>
+    <date>2010-09-13T08:04:22.938545Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3755">
+    <msg>[#9440]
+ * update mock_internet for test
+ * Add a graph for all issues
+ * Consider even change of milestone of each issue
+</msg>
+    <date>2010-09-13T07:26:37.147789Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3754">
+    <msg>[#9440] Add assertion for open-issues graph and remove duplication.
+</msg>
+    <date>2010-09-13T05:23:02.494569Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3753">
+    <msg>[#9440] Add a graph for open issues into burndown chart.</msg>
+    <date>2010-09-13T05:14:20.650886Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3752">
+    <msg>[#9440] rewrite some code for readability.</msg>
+    <date>2010-09-13T05:13:12.698143Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3751">
+    <msg>[#9440] get_issue_at return nil if the issue is not created yet at given date.
+</msg>
+    <date>2010-09-13T05:09:11.770949Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3749">
+    <msg>[#9981] Remove unused require from bd.rb</msg>
+    <date>2010-09-13T01:50:42.692179Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3748">
+    <msg>[#9981] Add a script to generate a burndown chart for nforge project.</msg>
+    <date>2010-09-13T01:21:24.088976Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3747">
+    <msg>[#9457] image resize change project logo </msg>
+    <date>2010-09-10T03:03:32.701790Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3746">
+    <msg>[#9457] 로고이미지가 찌그러져? 보이는 현상을 수정 합니다. </msg>
+    <date>2010-09-10T02:58:22.067174Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3745">
+    <msg>[#9758] Apply beaver theme to top downloads, most active, recently opened project and Adding some smarty pages on naver theme</msg>
+    <date>2010-09-09T09:36:06.114747Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3744">
+    <msg>[#9758] adding query to get group_id on getTopDownloads()</msg>
+    <date>2010-09-09T07:40:56.692433Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3743">
+    <msg>[#9758] change getTopDownloads query to get group_id</msg>
+    <date>2010-09-02T08:27:21.738812Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3742">
+    <msg>[#9758] edit query of getTopDownloads to get short_description</msg>
+    <date>2010-09-01T11:12:42.820407Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3741">
+    <msg>[#9758] edited selector mistake on id rank_best_list table th</msg>
+    <date>2010-09-01T11:06:55.466488Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3740">
+    <msg>[#9758] adding some images for toprank page</msg>
+    <date>2010-09-01T08:26:26.199483Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3739">
+    <msg>[#9758] adding rank_best title image and background image</msg>
+    <date>2010-09-01T07:31:02.238327Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3738">
+    <msg>[#9756] adding siteadmin page&apos;s style to beaver_main.css</msg>
+    <date>2010-09-01T07:23:10.784190Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3737">
+    <msg>[#9758] adding ranking page&apos;s style to beaver_main.css</msg>
+    <date>2010-09-01T07:21:55.230139Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3736">
+    <msg>[#9736] tagging nforge-2.7.0
+</msg>
+    <date>2010-08-31T08:18:01.982415Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3735">
+    <msg>[#9736] Change the version from 2.6-dev to 2.7.0</msg>
+    <date>2010-08-31T08:11:47.184153Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3734">
+    <msg>[#9736] Add changelog for 2.7.0-stable.</msg>
+    <date>2010-08-31T08:09:29.171424Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3733">
+    <msg>[#9736] Branch 2.7.0-stable from 2.7-stable to add Changelog for 2.7.0
+</msg>
+    <date>2010-08-31T08:06:07.848442Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3732">
+    <msg>[#9736] Add changelog for 2.7-stable.</msg>
+    <date>2010-08-31T07:56:40.602441Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3731">
+    <msg>[#9736] Change the version from 2.6.2 to 2.7
+</msg>
+    <date>2010-08-31T07:36:03.645594Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3730">
+    <msg>[#9736] branch 2.7-stable from 2.6.2-stable
+</msg>
+    <date>2010-08-31T07:34:00.285448Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3725">
+    <msg>[#9702] Change the version from 2.6-dev to 2.6.2
+</msg>
+    <date>2010-08-30T06:11:16.386395Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3720">
+    <msg>[#8671] propdel svn:keywords correctly
+</msg>
+    <date>2010-08-27T17:03:35.562335Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3719">
+    <msg>merged from trunk
+ * r3716,r3717 - [#8671] sync with the latest MoniWiki CVS, unset &apos;svn:keywords&apos; to preserve CVS version info.
+</msg>
+    <date>2010-08-27T16:58:15.890492Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3718">
+    <msg>[#8671] add a missing plugin extracted from the wikilib.php
+</msg>
+    <date>2010-08-27T16:51:31.468937Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3717">
+    <msg>[#8671] * sync with the latest MoniWiki CVS
+ * unset &apos;svn:keywords&apos; prop to preserve CVS version info.
+</msg>
+    <date>2010-08-27T16:44:12.472491Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3716">
+    <msg>[#3671] update gettext msgs
+</msg>
+    <date>2010-08-27T16:35:04.911010Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3715">
+    <msg>merged from trunk
+ * r3711,r3712 - update with the latest MoniWiki 1.1.5-RC5
+</msg>
+    <date>2010-08-27T16:14:05.620457Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3714">
+    <msg>merged from trunk
+ * r3717 : [#8879] apply conditional horizontal scrollbar in the trove_list to the beaver theme. (r3554,r3555,r3598,r3599)
+</msg>
+    <date>2010-08-27T15:58:37.878134Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3713">
+    <msg>[#8879] apply conditional horizontal scrollbar in the trove_list to the beaver theme. (r3554,r3555,r3598,r3599)
+</msg>
+    <date>2010-08-27T15:50:01.535163Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3712">
+    <msg>[#8671] update with the latest MoniWiki 1.1.5-RC5
+</msg>
+    <date>2010-08-27T11:28:49.493530Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3711">
+    <msg>[#8671] * update with the latest MoniWiki 1.1.5-RC5
+ * extracted FootNote macro
+</msg>
+    <date>2010-08-27T11:24:25.190495Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3709">
+    <msg>[#8597] Add and enable beaver theme in nforge 2.6.2.</msg>
+    <date>2010-08-27T09:08:25.681859Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3708">
+    <msg>[#9638] restore overflow style to empty, change content style by inline</msg>
+    <date>2010-08-27T07:22:59.571767Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3705">
+    <msg>[#9638] edit broken content layout on IE8, Chrome5, and any newer browser</msg>
+    <date>2010-08-27T05:41:24.970941Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3704">
+    <msg>add new branch 2.6.2
+</msg>
+    <date>2010-08-25T05:34:01.797319Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3703">
+    <msg>[#8956] $groupname to replace. $group-&gt;getUnixname(). </msg>
+    <date>2010-08-24T10:15:24.505976Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3702">
+    <msg>[#9523] modified register value to email </msg>
+    <date>2010-08-24T07:34:11.769662Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3701">
+    <msg>[#9524] register, first page tempplate to add a naver theme</msg>
+    <date>2010-08-24T07:32:31.083830Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3700">
+    <msg>[#9523] update themes first, register area </msg>
+    <date>2010-08-24T05:04:44.578613Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3699">
+    <msg>[#9523] update themes beaver, regitser, first area</msg>
+    <date>2010-08-24T05:03:49.650993Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3698">
+    <msg>[#9570] Remove unnecessary metadata added by collision.</msg>
+    <date>2010-08-23T13:17:32.718629Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3696">
+    <msg>[#9570] Apply new look to Project Admin pages in Beaver theme.</msg>
+    <date>2010-08-23T12:32:51.596226Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3695">
+    <msg>[#8597] Change the url to corresponding ranking page when select ranking tab.</msg>
+    <date>2010-08-23T12:02:48.556384Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3694">
+    <msg>[#9524] pending_resend page template to add a naver theme.</msg>
+    <date>2010-08-23T09:42:21.048617Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3693">
+    <msg>[#9523] Update themes beaver, pending_resend area </msg>
+    <date>2010-08-23T09:41:37.863345Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3692">
+    <msg>[#9524] lostpw page template to add a naver theme.</msg>
+    <date>2010-08-22T08:10:43.631913Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3691">
+    <msg>[#9523] Update themes beaver, lostpw area</msg>
+    <date>2010-08-22T07:48:26.780825Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3690">
+    <msg>[#9523] Update themes beaver, lostpw area</msg>
+    <date>2010-08-22T07:47:45.843620Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3689">
+    <msg>[#9523] Add a theme with some modifications to the language file.</msg>
+    <date>2010-08-22T06:28:25.565770Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3688">
+    <msg>[#9524] Naver login page template to add a theme.</msg>
+    <date>2010-08-22T06:27:37.547151Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3687">
+    <msg>[#9523] Add the code for the application of the beaver themes</msg>
+    <date>2010-08-22T06:23:27.708804Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3686">
+    <msg>[#9523] Login button hotkey to apply.</msg>
+    <date>2010-08-22T06:19:27.939704Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3685">
+    <msg>[#9523] Update themes beaver, login area</msg>
+    <date>2010-08-22T05:18:20.375959Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3684">
+    <msg>[#8454] Changing fetching logic</msg>
+    <date>2010-08-20T06:35:40.464225Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3683">
+    <msg>[#8454] change escape function from htmlspecialchars() to addslashes()</msg>
+    <date>2010-08-20T04:51:13.168976Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3682">
+    <msg>[#8454] editing some testing problems</msg>
+    <date>2010-08-20T03:26:51.020570Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3681">
+    <msg>[#8454] Editing assignee problem when writing a article by nForge API</msg>
+    <date>2010-08-20T02:51:07.772176Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3680">
+    <msg>[#8751] adding some comments on testDeleteComment()</msg>
+    <date>2010-08-19T09:15:46.495666Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3679">
+    <msg>[#8751] Edit testDeleteComment() with header problems on release.php when using AllTests.php</msg>
+    <date>2010-08-19T08:37:17.801751Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3678">
+    <msg>[#8751] Adding testDeleteComment test case on release.php And Refactoring some functions on shownotes.php
+</msg>
+    <date>2010-08-19T08:07:51.576366Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3677">
+    <msg>[#9457] 프로젝트 로고 이미지의 사이즈가 관리페이지에서도 정상적으로 나오도록 수정 합니다. </msg>
+    <date>2010-08-18T09:16:54.664130Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3676">
+    <msg>[#3948] update the last modified_data of artifacts with commit trackbacks.
+[#9437] support git commit log
+</msg>
+    <date>2010-08-17T08:30:02.048750Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3675">
+    <msg>[#9089] trim out language_code
+</msg>
+    <date>2010-08-17T08:18:36.746968Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3674">
+    <msg>[#3948] update the last_modified_date of artifacts with commit trackbacks
+</msg>
+    <date>2010-08-17T07:59:02.130605Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3673">
+    <msg>[#8313] do not show &quot;no changes&quot; warning when the date of the release is updated.
+</msg>
+    <date>2010-08-17T06:02:37.238992Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3671">
+    <msg>[#2873] [#9400] set gid correctly. reported by kylepark77
+</msg>
+    <date>2010-08-16T15:32:46.183771Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3670">
+    <msg>[#8513] more css tuning
+</msg>
+    <date>2010-08-14T02:06:45.425445Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3669">
+    <msg>[#8671] update po msgs
+</msg>
+    <date>2010-08-14T01:48:48.032295Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3668">
+    <msg>[#8671] update with the latest moniwiki
+</msg>
+    <date>2010-08-14T01:48:09.714868Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3667">
+    <msg>[#8513] extract EditHints macro. css styling and &quot;js&quot; option added by nori
+</msg>
+    <date>2010-08-14T01:41:05.783660Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3666">
+    <msg>[#9307] do not replicte the same entries of the passwd/shadow managed by nFORGE
+</msg>
+    <date>2010-08-13T12:03:26.871349Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3665">
+    <msg>[#8671] wiki_indexer.pl no longer used by the moniwiki
+</msg>
+    <date>2010-08-13T04:21:06.443772Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3664">
+    <msg>[#8671] update with the latest moniwiki 1.1.5-RC2
+</msg>
+    <date>2010-08-13T04:20:07.159435Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3660">
+    <msg>[#8671] update with the latest moniwiki 1.1.5-CVS
+</msg>
+    <date>2010-08-12T06:14:51.095774Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3659">
+    <msg>[#8671] update with the latest moniwiki 1.1.5-CVS
+</msg>
+    <date>2010-08-12T06:11:39.522718Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3658">
+    <msg>[#8671] update with the latest moniwiki 1.1.5
+</msg>
+    <date>2010-08-12T06:07:23.275570Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3657">
+    <msg>[#9200] nFORGE DB ERD (nforge-2.6.0 base</msg>
+    <date>2010-08-09T05:05:50.020309Z</date>
+    <author>thegper1</author>
+  </logentry>
+  <logentry revision="3655">
+    <msg>[#9199] Add a directory for documents.</msg>
+    <date>2010-08-06T08:51:51.791736Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3654">
+    <msg>[#8597] Make Project Registration tab in Global Navigation highlighted even if it is not selected. According to 4clover4 the UI desginer of this theme, the highlighting means importance not selection.</msg>
+    <date>2010-08-04T03:15:06.095368Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3653">
+    <msg>[#8408] revision stamping for css and javasscript files are included by index.tpl in naver and beaver theme</msg>
+    <date>2010-08-03T09:32:53.440049Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3652">
+    <msg>tagging nforge-2.6.1</msg>
+    <date>2010-08-03T04:34:31.336295Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3651">
+    <msg>add new ChangeLog</msg>
+    <date>2010-08-03T04:34:24.157253Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3646">
+    <msg>tagging nforge-2.6.0</msg>
+    <date>2010-07-29T09:12:56.712412Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3645">
+    <msg>add new ChangeLog</msg>
+    <date>2010-07-29T09:12:49.556926Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3644">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3642, r3643: [#8408] Add a revision stamp to the end of css and javascript link to prevent caching. This change should be applied with r3628.
+</msg>
+    <date>2010-07-29T08:04:09.590625Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3643">
+    <msg>[#8408] Rollback unintended changes from r3642.</msg>
+    <date>2010-07-29T08:02:59.214631Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3642">
+    <msg>[#8408] Add a revision stamp to the end of css and javascript link to prevent caching. This change should be applied with r3628.</msg>
+    <date>2010-07-29T07:57:17.878436Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3641">
+    <msg>merged to 2.6-stable from trunk and trunk/themes/beaver
+
+ * r3639: [#9089] Remove unused whitespace in language_code column.
+ * r3640: [#9089] trim $Lang_code because lang property does not ignore whitespace.</msg>
+    <date>2010-07-29T02:12:33.378532Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3640">
+    <msg>[#9089] trim $Lang_code because lang property does not ignore whitespace.</msg>
+    <date>2010-07-29T02:07:21.487133Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3639">
+    <msg>[#9089] Remove unused whitespace in language_code column.</msg>
+    <date>2010-07-29T02:04:04.251981Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3638">
+    <msg>[#8597] Enable beaver theme in nforge 2.6.</msg>
+    <date>2010-07-29T01:30:49.425355Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3637">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3635: [#8597] Make paginate for projects news works properly; Set offset when getting news items from DB.
+</msg>
+    <date>2010-07-28T08:20:04.210740Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3635">
+    <msg>[#8597] Make paginate for projects news works properly; Set offset when getting news items from DB.</msg>
+    <date>2010-07-28T08:13:47.966599Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3633">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3632: [#8597] Add project description into a item of most downloaded projects.
+</msg>
+    <date>2010-07-28T02:39:41.798837Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3632">
+    <msg>[#8597] Add project description into a item of most downloaded projects.</msg>
+    <date>2010-07-28T02:39:14.837694Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3629">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3628: [#8408] add a revision stamp to the end of css and javascript link to prevent caching.
+</msg>
+    <date>2010-07-28T02:09:30.310282Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3628">
+    <msg>[#8408] add a revision stamp to the end of css and javascript link to prevent caching.</msg>
+    <date>2010-07-28T02:07:51.083469Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3627">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3626: [#7743] Do not call trigger_error when error code is ERROR__NO_ERROR for avoid &amp;quot;Invalid error type specified&amp;quot; warning.
+</msg>
+    <date>2010-07-27T10:06:54.040586Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3626">
+    <msg>[#7743] Do not call trigger_error when error code is ERROR__NO_ERROR for avoid &quot;Invalid error type specified&quot; warning.</msg>
+    <date>2010-07-27T10:06:27.257672Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3625">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3606: [#7743] improve logging
+  * Add support for log level.
+  * set default value for errno parameter of nforge_log().
+</msg>
+    <date>2010-07-27T10:04:25.410395Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3624">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3623: [#5833] Rollback r3518 because the title modified r3518 does not fit My Page.
+</msg>
+    <date>2010-07-27T09:52:22.201592Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3623">
+    <msg>[#5833] Rollback r3518 because the title modified r3518 does not fit My Page.</msg>
+    <date>2010-07-27T09:51:55.594883Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3621">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3620: [#9053] Remove unused permission checking in My Page. It causes Permission Deinied warning.
+</msg>
+    <date>2010-07-27T07:32:40.109421Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3620">
+    <msg>[#9053] Remove unused permission checking in My Page. It causes Permission Deinied warning.</msg>
+    <date>2010-07-27T07:32:11.225463Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3619">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3618: [#7743] Add missing changes for adding some defines of log level. It is missed at r3606.
+</msg>
+    <date>2010-07-27T07:27:21.874577Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3618">
+    <msg>[#7743] Add missing changes for adding some defines of log level. It is missed at r3606.</msg>
+    <date>2010-07-27T07:26:49.283368Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3617">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3616: [#9059] Hide a preview-button at bottom of wikipage-edit-form because the button appears twice.
+</msg>
+    <date>2010-07-27T07:08:33.832626Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3616">
+    <msg>[#9059] Hide a preview-button at bottom of wikipage-edit-form because the button appears twice.</msg>
+    <date>2010-07-27T02:40:59.310436Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3615">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3609: [#9058] replace deprecated user_ismember() with is_site_admin().
+</msg>
+    <date>2010-07-27T02:34:36.730415Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3614">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3607: [#9054] downrate log level of no-changes-on-artifact to LOG__INFO.
+</msg>
+    <date>2010-07-27T02:34:14.273890Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3611">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3594: [#9043] prevent duplication of file attachment button by editing upload-file textbox.
+</msg>
+    <date>2010-07-27T02:33:10.949411Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3609">
+    <msg>[#9058] replace deprecated user_ismember() with is_site_admin().
+</msg>
+    <date>2010-07-27T01:29:40.445639Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3608">
+    <msg>[#7522] i18nize the background images of the login form.
+</msg>
+    <date>2010-07-26T13:43:26.491665Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3607">
+    <msg>[#9054] downrate log level of no-changes-on-artifact to LOG__INFO.</msg>
+    <date>2010-07-26T13:28:28.577876Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3606">
+    <msg>[#7743] improve logging
+ * Add support for log level.
+ * set default value for errno parameter of nforge_log().</msg>
+    <date>2010-07-26T13:20:15.203314Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3605">
+    <msg>[#7522] set $lang, $language tpl variables
+</msg>
+    <date>2010-07-26T13:17:59.326902Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3604">
+    <msg>[#8991] milestone to date area resize</msg>
+    <date>2010-07-26T13:04:04.245970Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3603">
+    <msg>[#8991] milestone to date area resize</msg>
+    <date>2010-07-26T13:03:53.372374Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3601">
+    <msg>[#9052] &lt;/Form&gt; tag is added.</msg>
+    <date>2010-07-26T12:28:40.471565Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3600">
+    <msg>[#9052] &lt;/Form&gt; tag is added.</msg>
+    <date>2010-07-26T12:28:17.001387Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3599">
+    <msg>[#8879] enable mouse dragging instead of the scrollbar in the trove_list
+</msg>
+    <date>2010-07-26T12:05:15.741665Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3597">
+    <msg>[#8991] Milestone to date in the area to modify</msg>
+    <date>2010-07-26T09:59:10.474180Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3596">
+    <msg>[#8991] Milestone to date in the area to modify</msg>
+    <date>2010-07-26T09:58:59.084928Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3594">
+    <msg>[#9043] prevent duplication of file attachment button by editing upload-file textbox.</msg>
+    <date>2010-07-26T07:40:20.675125Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3593">
+    <msg>[#9042] remove sys_urlprefix, util_make_link to replace.to branch 2.6-stable</msg>
+    <date>2010-07-26T07:29:08.572851Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3592">
+    <msg>[#9042] remove sys_urlprefix, util_make_link to replace.</msg>
+    <date>2010-07-26T07:28:30.941709Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3591">
+    <msg>[#9004] Remove test code added at r3590.</msg>
+    <date>2010-07-26T04:39:54.602959Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3589">
+    <msg>[#8850] make a class name more clear; paginatefive -&gt; page_numbers</msg>
+    <date>2010-07-26T02:45:54.873211Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3588">
+    <msg>tagging nforge-2.6.0-beta</msg>
+    <date>2010-07-22T13:54:05.660802Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3587">
+    <msg>add new ChangeLog</msg>
+    <date>2010-07-22T13:53:58.596006Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3586">
+    <msg>[#8597] Add beaver theme to 2.6-stable.</msg>
+    <date>2010-07-22T13:49:37.853669Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3584">
+    <msg>Rollback r3583. There is no need that 2.5-stable support beaver theme.</msg>
+    <date>2010-07-22T13:45:12.416536Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3582">
+    <msg>[#8597] Add a support for beaver theme to wiki.</msg>
+    <date>2010-07-22T13:11:30.465048Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3578">
+    <msg>[#8597] Limit page numbers of project news in site main. It is a missing change at r3577.</msg>
+    <date>2010-07-22T11:37:16.495747Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3577">
+    <msg>[#8597] Limit page numbers of project news in site main.</msg>
+    <date>2010-07-22T11:36:27.218910Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3576">
+    <msg>[#8597] Make paginate for project news works in site main. These are missing changes at r3575.</msg>
+    <date>2010-07-22T09:39:29.756870Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3575">
+    <msg>[#8597] Make paginate for project news works in site main.</msg>
+    <date>2010-07-22T09:26:21.792385Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3574">
+    <msg>[#8597]
+ * Add link to nforge site in network news.
+ * Show project name if only it is given.
+</msg>
+    <date>2010-07-22T06:12:22.969022Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3573">
+    <msg>[#8597] Add _rank_tabpanel template for ranking in site main.</msg>
+    <date>2010-07-22T05:57:55.829643Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3572">
+    <msg>[#8597] Make tabs for ranking work.</msg>
+    <date>2010-07-22T05:55:05.195632Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3571">
+    <msg>[#8958] Branching nforge-2.6 from trunk.</msg>
+    <date>2010-07-21T06:20:12.946232Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3570">
+    <msg>[#8684] Add a test for counting comments of an artifact.</msg>
+    <date>2010-07-21T05:26:28.544898Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3568">
+    <msg>[#8810] Add messages for delphi and objective-c.</msg>
+    <date>2010-07-21T05:15:05.354785Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3566">
+    <msg>[#8941] Remove deprecated new-by-references.</msg>
+    <date>2010-07-21T01:09:56.747405Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3565">
+    <msg>[#8226] transition of Mass Update feature from experimental state to stable state.</msg>
+    <date>2010-07-21T00:58:50.356675Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3563">
+    <msg>[#8071] Add a new url to code browsing by web, for link from Hudson. An example of new url is &apos;/projects/projectname/code/viewvc/trunk?root=projectname.&apos;
+</msg>
+    <date>2010-07-20T08:48:23.218256Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3562">
+    <msg>[#8513] Display wikihints when EditTextForm contains it.
+</msg>
+    <date>2010-07-20T07:47:32.986623Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3561">
+    <msg>[#5856] 게시판 작성시 내용에 65535byte 이상이 입력되지 않도록 합니다. </msg>
+    <date>2010-07-20T03:16:09.321900Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3560">
+    <msg>[#8850] submit or check loginfrom correctly
+</msg>
+    <date>2010-07-19T07:27:06.770460Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3559">
+    <msg>[#8850] use form_generate_key() in the login form
+</msg>
+    <date>2010-07-19T07:25:40.537958Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3557">
+    <msg>[#8671] the favicon.ico of the new beaver theme is added as the interwiki icon of the nFORGE Wiki
+</msg>
+    <date>2010-07-18T14:38:59.390873Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3555">
+    <msg>[#8879] update a missing file in r3554
+</msg>
+    <date>2010-07-17T07:35:48.696423Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3554">
+    <msg>[#8879] conditionally set a horizontal scrollbar when categories are added.
+</msg>
+    <date>2010-07-17T07:15:31.644913Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3552">
+    <msg>[#8850] paginatefive styling more precisely
+</msg>
+    <date>2010-07-16T17:16:14.916366Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3550">
+    <msg>[#8850] do not set the default logo img in the code part.
+</msg>
+    <date>2010-07-16T15:58:14.507602Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3549">
+    <msg>[#8850] set the $project_img in the Projects news
+</msg>
+    <date>2010-07-16T15:56:32.022806Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3547">
+    <msg>[#8850] use css class separately. make markup more semantic
+</msg>
+    <date>2010-07-16T14:55:19.267432Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3546">
+    <msg>[#8850] set font color for some elements
+</msg>
+    <date>2010-07-16T13:49:56.949709Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3545">
+    <msg>[#8850] set group_name as project_name
+</msg>
+    <date>2010-07-16T12:55:20.105101Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3544">
+    <msg>[#8850] add a missing patch. set $group_name to show group_name in the projects news
+</msg>
+    <date>2010-07-16T12:36:01.819952Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3543">
+    <msg>[#8850] dos2unix to index.tpl.</msg>
+    <date>2010-07-16T11:02:27.333788Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3542">
+    <msg>[#8850] Add project image in All Projects News.
+</msg>
+    <date>2010-07-16T11:00:59.927773Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3541">
+    <msg>[#8850] set charset to UTF-8
+</msg>
+    <date>2010-07-16T04:07:44.689908Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3540">
+    <msg>[#8850] revert some change of the r3536 for the login_form.
+</msg>
+    <date>2010-07-16T03:05:15.739357Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3538">
+    <msg>[#8850] add missing javascripts.
+</msg>
+    <date>2010-07-16T02:46:56.375478Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3537">
+    <msg>[#8850] cleanup the beaver theme.
+ * remove beaver_ prefix from css IDs
+ * all embeded img tags are removed
+ * i18nize almost all msgs with lang=&quot;ko&quot; and class=&quot;korean&quot; language tags
+ * remove a table
+</msg>
+    <date>2010-07-15T20:59:02.354219Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3536">
+    <msg>[#8850] remove beaver_ prefix from css IDs and override some exists css styles of the main.css
+</msg>
+    <date>2010-07-15T14:01:21.987881Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3535">
+    <msg>[#8597] dos2unix *.css
+</msg>
+    <date>2010-07-15T10:36:18.338259Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3534">
+    <msg>[#6770] use $sys_urlprefix and i18nize some msgs
+</msg>
+    <date>2010-07-15T10:13:33.710597Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3532">
+    <msg>[#8597] dos2unix some template files
+</msg>
+    <date>2010-07-15T10:06:04.784035Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3531">
+    <msg>[#8418] [#8597] apply r3530 to the new beaver theme
+</msg>
+    <date>2010-07-15T10:01:08.148488Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3530">
+    <msg>[#8418] i18nize untranslated messages
+</msg>
+    <date>2010-07-15T09:52:52.612723Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3529">
+    <msg>[#5892] oops, restore release.php to r3486</msg>
+    <date>2010-07-15T08:56:19.870146Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3527">
+    <msg>[#8418] i18nize some messages
+</msg>
+    <date>2010-07-15T08:08:02.863641Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3526">
+    <msg>[#8597] add whitespace before left curly bracket in css files of beaver theme.</msg>
+    <date>2010-07-15T07:52:26.014922Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3525">
+    <msg>[#8597] Add links to project ranking pages.
+</msg>
+    <date>2010-07-15T07:48:29.494103Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3524">
+    <msg>[#8597] replace get_joined_groups() with get_projects_by_member()</msg>
+    <date>2010-07-15T07:42:45.821436Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3523">
+    <msg>[#8597] Extract get_projects_by_member() for new theme.</msg>
+    <date>2010-07-15T07:01:27.075154Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3522">
+    <msg>[#8597] Add project descriptions for best projects tabbox in site main.</msg>
+    <date>2010-07-15T06:55:58.200700Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3521">
+    <msg>[#5833] Change the title layout in the home.</msg>
+    <date>2010-07-15T06:49:28.191451Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3520">
+    <msg>[#8597] dos2unix *.js
+</msg>
+    <date>2010-07-15T06:40:38.503152Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3519">
+    <msg>[#8597] Refactor css and html for tabboxes in site main.</msg>
+    <date>2010-07-15T06:29:05.686372Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3518">
+    <msg>[#5833] Change the title display.</msg>
+    <date>2010-07-15T06:24:58.936406Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3517">
+    <msg>[#5827] 통계자료 메시지가 정상적인 위치에 나오도록 수정 합니다. </msg>
+    <date>2010-07-15T04:49:47.668483Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3515">
+    <msg>[#8418] English version of the login area applying nFORGE</msg>
+    <date>2010-07-15T02:35:09.311363Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3514">
+    <msg>[#8418] The English version nFORGE news area coverage, with a single quota changes</msg>
+    <date>2010-07-15T02:33:14.039974Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3513">
+    <msg>[#8418] English versions of news area applied nFORGE</msg>
+    <date>2010-07-15T02:27:15.505693Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3512">
+    <msg>[#8597] Add beaver theme
+</msg>
+    <date>2010-07-15T02:17:18.579180Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3511">
+    <msg>[#8768] 정렬옵션에 누락된 부분을 추가하여 오름차순 정렬이 가능 하도록 합니다. </msg>
+    <date>2010-07-14T07:14:42.000557Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3509">
+    <msg>[#8507] Send email to the member who is joined a project.</msg>
+    <date>2010-07-12T08:32:13.212778Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3508">
+    <msg>[#8138] replace explode() with preg_split()</msg>
+    <date>2010-07-12T06:44:19.457786Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3507">
+    <msg>[#8138] php5.3 to explode after replacing the unused split</msg>
+    <date>2010-07-12T06:34:53.132238Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3506">
+    <msg>[#8405] Remove test code from r3468
+</msg>
+    <date>2010-07-12T06:32:24.861972Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3502">
+    <msg>[#8684] Add a test for counting of comments.</msg>
+    <date>2010-07-09T06:06:59.554138Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3499">
+    <msg>[#8690] set $sys_dbport, $sys_server variables correctly.
+</msg>
+    <date>2010-07-09T05:54:05.069721Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3497">
+    <msg>[#8420] Added auto-button-sizing on addRow function</msg>
+    <date>2010-07-09T01:23:39.864341Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3496">
+    <msg>[#7186] use the $sys_wiki_dir instead of the $sys_chroot
+</msg>
+    <date>2010-07-09T01:21:07.232514Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3495">
+    <msg>merged from trunk
+
+ * r3465: [#8520] show a attachment button correctly at the forum
+</msg>
+    <date>2010-07-08T08:23:13.264705Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3494">
+    <msg>[#8654] Add routing test to AllTests.</msg>
+    <date>2010-07-08T08:01:43.176355Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3492">
+    <msg>[#8346] Add test for routing to release</msg>
+    <date>2010-07-08T07:53:43.130997Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3491">
+    <msg>[#8592] replace a magic number to create admin-user with an id by user_get_object_by_name(), same as r3476</msg>
+    <date>2010-07-08T07:51:41.799951Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3490">
+    <msg>[#8683] Extract subpage_download() from subpage_release(). subpage_downloads() handles urls like /projects/download/xxx and /projects/files/xxx. And subpage_release() does urls like /projects/releases/xxx</msg>
+    <date>2010-07-08T07:16:04.053086Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3487">
+    <msg>[#5577] Add ReleaseTest as a test suite in AllTests.</msg>
+    <date>2010-07-08T04:39:52.356382Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3486">
+    <msg>[#5577] Move some tests to release_render.php becuase these raise header resent error if ReleaseTest is added in AllTest.</msg>
+    <date>2010-07-08T04:38:40.410300Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3483">
+    <msg>[#8287] add a missing patch to the last change of the r3481
+</msg>
+    <date>2010-07-07T11:07:21.773689Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3482">
+    <msg>[#8571] apply the sliding door style to the navigation bar.
+</msg>
+    <date>2010-07-07T10:59:31.315877Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3481">
+    <msg>[#8287] add a sliding door type btn_default.png.
+remove mozilla css-hacks and apply *,_ hack for IE6/7.
+simplify some duplicated button style.
+</msg>
+    <date>2010-07-07T10:40:06.972459Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3480">
+    <msg>[#8485] remove $Language argument from subroutines and replace it with global $Language.
+reorder $HTML arg.
+</msg>
+    <date>2010-07-07T10:37:55.299632Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3479">
+    <msg>[#5624] Rollback an unintended change from r3478.</msg>
+    <date>2010-07-07T10:05:44.517121Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3478">
+    <msg>[#5624] Rollback an unintended change from r3477.</msg>
+    <date>2010-07-07T10:04:41.011069Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3476">
+    <msg>[#8592] replace a magic number to create admin-user with an id by user_get_object_by_name()</msg>
+    <date>2010-07-07T08:06:07.372103Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3472">
+    <msg>[#8407] Allow basic admin to use mass-update.
+</msg>
+    <date>2010-07-06T10:07:09.355631Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3471">
+    <msg>[#8308] It must not allowed anonymouse user to see changelog in comment, if anonscm is disabled.
+</msg>
+    <date>2010-07-06T09:42:24.377776Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3470">
+    <msg>[#8308] Changelog in comment can be shown only if the user has read permission for code repository.
+</msg>
+    <date>2010-07-06T08:35:40.646038Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3468">
+    <msg>[#8405] Add support for search-query to save condition of submitter</msg>
+    <date>2010-07-06T05:56:59.798328Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3467">
+    <msg>[#7743] Change ERR to ERROR because there is no reason to use acronym.
+</msg>
+    <date>2010-07-06T05:03:26.838116Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3466">
+    <msg>[#8405] Add support to save search-query has &apos;None&apos; condition for any extra field.
+</msg>
+    <date>2010-07-06T03:14:22.666279Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3465">
+    <msg>[#8520] show a attachment button correctly at the forum
+</msg>
+    <date>2010-07-05T09:29:30.862066Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3464">
+    <msg>[#8510] do not omit the last reply comment when tracker changed its status.
+</msg>
+    <date>2010-07-05T06:23:26.672221Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3462">
+    <msg>[#8487] add a missing global $feedback; statement
+</msg>
+    <date>2010-07-03T13:55:06.268632Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3460">
+    <msg>[#6770] use util_make_url().
+</msg>
+    <date>2010-07-03T11:58:24.719137Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3459">
+    <msg>[#6770] use util_make_url() correctly. remove wiki style sheets
+</msg>
+    <date>2010-07-03T11:22:32.090759Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3458">
+    <msg>[#8440] use glob() function instead of the ls command.
+</msg>
+    <date>2010-07-01T00:33:06.070513Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3457">
+    <msg>[#4634] support FTP file uploading.
+you can enable this feature by setting $sys_use_ftpuploads=true and $sys_ftp_upload_dir.
+</msg>
+    <date>2010-06-30T22:06:53.335571Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3456">
+    <msg>[#8233] Change the version of trunk branch to 2.6-dev</msg>
+    <date>2010-06-30T06:18:46.790711Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3455">
+    <msg>tagging nforge-2.5.0</msg>
+    <date>2010-06-30T06:06:49.927773Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3454">
+    <msg>add new ChangeLog</msg>
+    <date>2010-06-30T06:06:46.512638Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3453">
+    <msg>[#8233] remove 2.5.0 tags because an error is found after the tagging.</msg>
+    <date>2010-06-30T05:56:20.460344Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3450">
+    <msg>tagging nforge-2.5.0</msg>
+    <date>2010-06-29T08:45:36.464525Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3449">
+    <msg>add new ChangeLog</msg>
+    <date>2010-06-29T08:45:29.967352Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3448">
+    <msg>merged from trunk
+
+ * r3447: [#7641] Make sure that mass-update can update also notice status.
+</msg>
+    <date>2010-06-29T08:07:47.863454Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3447">
+    <msg>[#7641] Make sure that mass-update can update also notice status.</msg>
+    <date>2010-06-29T07:51:41.797340Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3446">
+    <msg>merged from trunk
+
+ * r3444: [#7699] Add missing link to css files in project_control_milestone_edit.tpl
+</msg>
+    <date>2010-06-29T07:03:33.662241Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3444">
+    <msg>[#7699] Add missing link to css files in project_control_milestone_edit.tpl</msg>
+    <date>2010-06-29T06:46:00.740899Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3440">
+    <msg>[#8358] Match div tag in the delete release page.</msg>
+    <date>2010-06-29T05:08:27.866244Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3439">
+    <msg>merged from trunk
+
+ * r3438: [#6738] Make util_make_url_g() accepts only unixname of a group, not id.
+</msg>
+    <date>2010-06-29T01:44:44.994652Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3438">
+    <msg>[#6738] Make util_make_url_g() accepts only unixname of a group, not id.</msg>
+    <date>2010-06-29T01:40:47.943049Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3437">
+    <msg>[#8353] buttun to modify the location(margin -&gt; margin-top)</msg>
+    <date>2010-06-29T00:52:28.659740Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3436">
+    <msg>merged from trunk
+
+ * r3433: [#7553] Add support for postgresql 8.4
+</msg>
+    <date>2010-06-28T12:33:46.207807Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3435">
+    <msg>merged from trunk
+
+ * r3431: [#8312] Give anonymous-user anonymous-permission.
+</msg>
+    <date>2010-06-28T12:33:32.729881Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3434">
+    <msg>[#8358] Match div tag in the downloading page.</msg>
+    <date>2010-06-28T12:28:04.718933Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3433">
+    <msg>[#7553] Add support for postgresql 8.4</msg>
+    <date>2010-06-28T12:23:13.303612Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3432">
+    <msg>[#7625] set $project values from $params.</msg>
+    <date>2010-06-28T11:34:28.532185Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3431">
+    <msg>[#8312] Give anonymous-user anonymous-permission.
+</msg>
+    <date>2010-06-28T10:13:07.274935Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3430">
+    <msg>[#8354] Apply r3428 to trunk</msg>
+    <date>2010-06-28T09:49:27.248281Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3427">
+    <msg>merged from trunk
+
+ * r3416: [#8312] Remove permission error when a guest invite a project. just return false.
+</msg>
+    <date>2010-06-28T09:44:16.949127Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3424">
+    <msg>[#8354] Apply r3423 to trunk.</msg>
+    <date>2010-06-28T09:07:32.696349Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3422">
+    <msg>[#8353] Button to modify the location</msg>
+    <date>2010-06-28T08:44:20.149702Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3420">
+    <msg>[#8351] Remove a file added by mistake at r3419</msg>
+    <date>2010-06-28T07:27:52.946881Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3418">
+    <msg>[#8342] A session is required to do some stuff about search query.
+</msg>
+    <date>2010-06-28T05:08:13.205365Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3417">
+    <msg>[#2109] paginate 의 IE6 간격이상을 조정합니다. </msg>
+    <date>2010-06-28T02:40:48.189542Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3416">
+    <msg>[#8312] Remove permission error when a guest invite a project. just return false.
+</msg>
+    <date>2010-06-25T12:21:00.696561Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3414">
+    <msg>[#7641] Change the method of mass_update_form from GET to POST.
+</msg>
+    <date>2010-06-25T08:15:02.076937Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3411">
+    <msg>merged from trunk
+
+ * r3410: [#7699] Add missing link to css file in project_control_milestone_view.tpl
+</msg>
+    <date>2010-06-25T07:01:58.962537Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3410">
+    <msg>[#7699] Add missing link to css file in project_control_milestone_view.tpl</msg>
+    <date>2010-06-25T07:01:08.321690Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3409">
+    <msg>merged from trunk
+
+ * r3408: [#8304] Remove useless nl2br().
+</msg>
+    <date>2010-06-25T06:54:55.762200Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3408">
+    <msg>[#8304] Remove useless nl2br().</msg>
+    <date>2010-06-25T06:54:15.596445Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3407">
+    <msg>[#8223] Fix this version to 2.5.0-beta
+</msg>
+    <date>2010-06-23T13:05:02.097807Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3406">
+    <msg>[#8233] Rename this directory 2.5.0 to 2.5.0-beta. 
+</msg>
+    <date>2010-06-23T13:00:01.765140Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3405">
+    <msg>taggin nforge-2.5.0</msg>
+    <date>2010-06-23T12:20:27.968504Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3404">
+    <msg>add new ChangeLog</msg>
+    <date>2010-06-23T12:20:21.053258Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3403">
+    <msg>merged from trunk
+
+ * r3402: [#8233] Change the version from 2.4.0 to 2.5.0-beta
+</msg>
+    <date>2010-06-23T09:48:11.648675Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3402">
+    <msg>[#8233] Change the version from 2.4.0 to 2.5.0-beta</msg>
+    <date>2010-06-23T09:47:32.280152Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3399">
+    <msg>[#8239] set the filename of content-desposition header using RFC 2231 by default.
+</msg>
+    <date>2010-06-22T23:27:49.823889Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3398">
+    <msg>[#8233] Branching nforge-2.5 from trunk</msg>
+    <date>2010-06-22T09:57:59.839583Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3397">
+    <msg>[#5309] Add a message to notice beginning of sanity test.</msg>
+    <date>2010-06-22T01:34:08.606420Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3396">
+    <msg>[#6430] Add a missing file at r3395</msg>
+    <date>2010-06-22T01:18:25.870753Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3395">
+    <msg>[#6430] Add a testcase for util_nforge_render()</msg>
+    <date>2010-06-22T01:17:28.003103Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3394">
+    <msg>[#6430]
+ * Reserve whitespace and escaping html tag in email.
+ * Combine indent() and wiki_tracker_revision()</msg>
+    <date>2010-06-22T01:14:06.850300Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3393">
+    <msg>[#7920] Replace nforge logo </msg>
+    <date>2010-06-21T02:30:44.832018Z</date>
+    <author>ritzs</author>
+  </logentry>
+  <logentry revision="3392">
+    <msg>[#8138] replace split() with explode()
+</msg>
+    <date>2010-06-19T06:47:51.942768Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3391">
+    <msg>[#8150] fine tuning upload form position.
+</msg>
+    <date>2010-06-19T06:17:57.724650Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3390">
+    <msg>[#8163] set font-size of the textrea of the tracker post form. 
+</msg>
+    <date>2010-06-19T06:12:25.895751Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3389">
+    <msg>[#8162] apply textarea resizer to the post form of the tracker
+</msg>
+    <date>2010-06-19T06:03:42.068820Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3387">
+    <msg>[#8156] make the bg image of the search button longer.
+</msg>
+    <date>2010-06-18T16:34:45.551296Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3386">
+    <msg>[#7702] tuning the css of the search button. remove some IE css hack.
+</msg>
+    <date>2010-06-18T16:04:42.866545Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3385">
+    <msg>[#8154] toggle background images of login form correctly.
+</msg>
+    <date>2010-06-18T15:17:15.853632Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3384">
+    <msg>[#8150] open a file dialog with one click.
+</msg>
+    <date>2010-06-18T12:36:55.564757Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3382">
+    <msg>[#7920] Replace nforge logo with new one.</msg>
+    <date>2010-06-18T09:00:10.659766Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3380">
+    <msg>[#7310] rollback r3372,r3373
+</msg>
+    <date>2010-06-18T08:29:24.788619Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3379">
+    <msg>[#7218] Use unixname instead of user_id for building link to user page, if $sys_show_user_unixname is true.</msg>
+    <date>2010-06-18T06:51:39.369231Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3378">
+    <msg>[#8113] dos2unix some css files
+</msg>
+    <date>2010-06-17T04:21:32.928522Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3377">
+    <msg>[#7702] css styling the search button. remove some width restrictions
+</msg>
+    <date>2010-06-17T04:15:42.086100Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3375">
+    <msg>[#6738] Rollback r3230. Since r3311, There is no need to prevent numeric project name.</msg>
+    <date>2010-06-17T01:30:54.966754Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3373">
+    <msg>[#7310] deleting some comments</msg>
+    <date>2010-06-16T09:41:32.883052Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3368">
+    <msg>[#7702] Change the image button to simple button for supporting multi languages.</msg>
+    <date>2010-06-15T08:06:08.510609Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3367">
+    <msg>[#7641] Remove $basic_fields parameter from ArtifactTypeSmart::assign_template(). The parameter has not been used since r3348
+</msg>
+    <date>2010-06-15T07:41:16.496259Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3366">
+    <msg>[#6595] Only display ongoing milestones in the new artifact insert form.</msg>
+    <date>2010-06-15T06:54:27.142147Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3365">
+    <msg>[#6595] check undefined &apos;selected&apos; index.</msg>
+    <date>2010-06-15T03:24:26.985552Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3364">
+    <msg>[#7743] Add support for logging (experimental)</msg>
+    <date>2010-06-15T02:13:44.998445Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3363">
+    <msg>[#7702] Translate search button text to English.</msg>
+    <date>2010-06-14T07:22:55.171353Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3361">
+    <msg>[#7535] Change the remains in transelate.</msg>
+    <date>2010-06-14T05:33:39.026138Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3360">
+    <msg>[#7535] Translate from Korean to English in the viewvc templates-en.</msg>
+    <date>2010-06-14T05:11:09.990918Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3359">
+    <msg>[#7535] Copy template-ko to template-en</msg>
+    <date>2010-06-14T02:23:16.249474Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3357">
+    <msg>[#7625] oops! check subpage_*() ret value correctly.
+</msg>
+    <date>2010-06-11T14:03:17.488428Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3356">
+    <msg>[#7640] Add title property to span tag for displaying the count of the issues.</msg>
+    <date>2010-06-11T08:12:49.017881Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3355">
+    <msg>[#7641] Make notice-checkbox works properly in mass-update pannel.</msg>
+    <date>2010-06-11T08:06:34.181927Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3354">
+    <msg>[#7641] mass-update pannel is seen by only admin and technician.</msg>
+    <date>2010-06-11T07:57:17.542600Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3353">
+    <msg>[#7406] Change the RSS image size.</msg>
+    <date>2010-06-11T05:32:17.318444Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3352">
+    <msg>[#7406] Oops, I have missed RSS image files.</msg>
+    <date>2010-06-11T02:13:30.322252Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3351">
+    <msg>[#7406] Add RSS image.</msg>
+    <date>2010-06-11T02:12:46.567749Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3350">
+    <msg>[#7641] Refactoring
+ * Extract toggle_all_checkboxes() method from onClick event in mass_update_all checkbox.
+ * Replace onClick event handling in artifact_id_list[] checkboxes with show_mass_update_pannel_if_any_checkbox_is_checked() method.</msg>
+    <date>2010-06-11T01:43:00.038423Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3349">
+    <msg>[#7641] Show mass-update pannel when any checkbox is checked, even if the page is reloaded by webbrowser&apos;s backbutton.</msg>
+    <date>2010-06-11T01:37:38.574203Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3348">
+    <msg>[#7641] Refactoring: move code to get $basic_fields from caller to callee and remove the parameter to pass the variable.</msg>
+    <date>2010-06-10T09:47:06.599816Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3347">
+    <msg>[#7641] [#6595] show milestones under ongoing only in mass-update pannel.</msg>
+    <date>2010-06-10T09:41:57.330744Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3346">
+    <msg>[#5648] change the db backup file extension</msg>
+    <date>2010-06-10T09:34:09.248688Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3345">
+    <msg>[#5440] Keep the recent 7 backup files only.</msg>
+    <date>2010-06-10T08:03:56.194112Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3344">
+    <msg>[#7641] Improve the looks of mass-update pannel; Add border and space properly.</msg>
+    <date>2010-06-10T04:54:20.328808Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3343">
+    <msg>[#7887] Do not display scm tarball download button if there is no scm tarball file.</msg>
+    <date>2010-06-10T03:59:14.603710Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3342">
+    <msg>[#6595] Keep the old milestone value that was completed or not progress.</msg>
+    <date>2010-06-10T01:40:32.861498Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3340">
+    <msg>[#7641] Add mass-update support (experimental)</msg>
+    <date>2010-06-09T10:06:34.008110Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3337">
+    <msg>[#7519] Create smarty cache directory recursively.</msg>
+    <date>2010-06-09T05:58:22.334867Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3332">
+    <msg>[#7901] workaround to render inserted empty lines correctly
+</msg>
+    <date>2010-06-09T05:00:00.139819Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3330">
+    <msg>[#7472] Adjust auto_increment start number for cubrid.</msg>
+    <date>2010-06-09T02:30:27.324517Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3328">
+    <msg>[#7737] Remove unintended blank lines in patches by commit in comments</msg>
+    <date>2010-06-08T08:31:44.150987Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3327">
+    <msg>[#7699] Add util_make_url_plugin_theme(). I missed it at r3325</msg>
+    <date>2010-06-08T06:23:21.013566Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3326">
+    <msg>[#7699] Remove dependency on naver theme; Move some image files from naver theme dir to plugin dir. These should have been moved at r3325, but I missed it.</msg>
+    <date>2010-06-08T04:57:16.094443Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3325">
+    <msg>[#7699] Remove dependency on naver theme; Move some image files from naver theme dir to plugin dir.</msg>
+    <date>2010-06-08T04:50:05.796869Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3323">
+    <msg>[#7699] Remove dependency on naver theme, releated to css files.</msg>
+    <date>2010-06-08T02:57:51.103448Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3320">
+    <msg>[#2953] add a SimpleURL class
+</msg>
+    <date>2010-06-07T10:20:25.491111Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3319">
+    <msg>[#2483] UserTest does not work well yet.
+</msg>
+    <date>2010-06-07T10:19:33.566699Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3318">
+    <msg>[#7625] simplified subpage_*() arguments etc.
+</msg>
+    <date>2010-06-07T10:15:16.966460Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3317">
+    <msg>[#2483] Make AllTests.php works correctly; Remove currently unrunnable testsuites and add testsuites related to tracker.&apos;
+</msg>
+    <date>2010-06-07T10:06:12.379678Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3315">
+    <msg>[#7886] move theme specific code the the Theme.class.php
+</msg>
+    <date>2010-06-07T09:45:45.020385Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3314">
+    <msg>[#2483] Make the testcase for Project can be tested alone; Add stubs for initialization.&apos;
+</msg>
+    <date>2010-06-07T09:35:22.453028Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3313">
+    <msg>[#2180] _stripslashes() added to check magic_quites_gpc corrcectly.
+</msg>
+    <date>2010-06-07T09:13:06.582783Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3312">
+    <msg>[#7641] move get_tracker_types() from artifact.php to tracker_util.php. This function will be used by not only artifact.php but browse.php.</msg>
+    <date>2010-06-07T09:10:10.040444Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3311">
+    <msg>[#6738] check $group_name_or_id for backward compatibility.
+you can also use $check_id=false option with validate_group() to protect numeric group_name.
+</msg>
+    <date>2010-06-07T09:05:24.903008Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3310">
+    <msg>[#7472] Oops... I have committed unintend code in r3309. So, rollback it.</msg>
+    <date>2010-06-07T06:48:04.446609Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3309">
+    <msg>[#7472] rollback r3308 because of mysql error</msg>
+    <date>2010-06-07T06:45:23.290433Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3308">
+    <msg>[#7472] Set group_plugin_id value for group_plugin insert statement because of cubrid spec.</msg>
+    <date>2010-06-07T05:32:45.126698Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3307">
+    <msg>[#7459] Set codereview as default.</msg>
+    <date>2010-06-07T02:16:49.464152Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3306">
+    <msg>[#7734] Display the guide if there is too short search keyword.</msg>
+    <date>2010-06-04T01:29:41.531134Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3305">
+    <msg>[#2483] repalce hard-corded admin_id with user_get_object_by_name()</msg>
+    <date>2010-06-03T13:41:31.040435Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3304">
+    <msg>[#5309] Add an option to specify local repository directory</msg>
+    <date>2010-06-01T07:39:31.541742Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3303">
+    <msg>taggin nforge-2.4.0</msg>
+    <date>2010-05-31T09:56:58.372514Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3302">
+    <msg>add new ChangeLog</msg>
+    <date>2010-05-31T09:56:45.778310Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3301">
+    <msg>merged from trunk
+
+ * r3300: [#7473] Change the version from 2.4.0-beta to 2.4.0
+</msg>
+    <date>2010-05-31T09:43:37.440932Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3300">
+    <msg>[#7473] Change the version from 2.4.0-beta to 2.4.0</msg>
+    <date>2010-05-31T09:43:11.439323Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3299">
+    <msg>[#7699] Use default theme if there is no theme fits $sys_theme in plugin.</msg>
+    <date>2010-05-31T09:38:32.607344Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3298">
+    <msg>[#7555] Change the name of anonymous to nobody if &quot;nobody&quot; add some messages to artifact.</msg>
+    <date>2010-05-31T08:32:39.741665Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3297">
+    <msg>[#7555] Add name &apos;Nobody&apos; to noreply@... address.</msg>
+    <date>2010-05-31T08:03:04.545560Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3296">
+    <msg>[#7704] Add author&apos;s name</msg>
+    <date>2010-05-31T07:55:30.404178Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3295">
+    <msg>[#7704] Move an inessential plugin from /trunk/nforge/plugins to /trunk/plugins
+</msg>
+    <date>2010-05-31T07:24:32.194212Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3294">
+    <msg>[#7704] Add a sample plugin to show how to add your project menu.</msg>
+    <date>2010-05-31T07:19:04.589625Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3293">
+    <msg>[#7637] Rename the menu shortly in English.</msg>
+    <date>2010-05-31T06:23:00.312600Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3292">
+    <msg>[#7699] Remove (or reduce) milestone&apos;s dependency on naver theme.</msg>
+    <date>2010-05-31T05:00:53.829013Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3291">
+    <msg>[#7697] Send project search query to trove_list.php.</msg>
+    <date>2010-05-31T02:55:55.933188Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3290">
+    <msg>merged from trunk
+
+ * r3288: [#4683] Delete unused items in cookie
+</msg>
+    <date>2010-05-31T01:17:40.181064Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3288">
+    <msg>[#4683] Delete unused items in cookie</msg>
+    <date>2010-05-31T01:15:57.753020Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3285">
+    <msg>[#7662] Add css parameter to groupmenu plugin hook.</msg>
+    <date>2010-05-28T07:34:17.043740Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3283">
+    <msg>[#7568] change the width css keyword to min-width in the paginate.</msg>
+    <date>2010-05-28T02:10:41.120408Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3275">
+    <msg>[#7615] Reorder list by duedate desc in the milestone.</msg>
+    <date>2010-05-27T07:03:11.832174Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3274">
+    <msg>[#7620] Do not show holding projects in the trove_list.</msg>
+    <date>2010-05-27T06:17:26.942475Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3272">
+    <msg>[#5489] Remove unused assertion. 
+</msg>
+    <date>2010-05-27T02:14:34.415235Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3270">
+    <msg>[#3555] rollback r3223 in the trunk</msg>
+    <date>2010-05-26T07:27:47.713881Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3269">
+    <msg>[#3555] rollback r3223 again</msg>
+    <date>2010-05-26T07:26:35.351174Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3268">
+    <msg>[#3555] Oops, Unitended files were removed. rollback r3267</msg>
+    <date>2010-05-26T07:23:39.470716Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3267">
+    <msg>[#3555] rollback r3223</msg>
+    <date>2010-05-26T07:15:04.119062Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3266">
+    <msg>merged from trunk
+
+ * r3265: [#4683] add prefix to keys for searching parameters saved as cookie, in order to prevent name collision.
+</msg>
+    <date>2010-05-26T05:36:32.190208Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3265">
+    <msg>[#4683] add prefix to keys for searching parameters saved as cookie, in order to prevent name collision.</msg>
+    <date>2010-05-26T05:35:48.207097Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3264">
+    <msg>[#7447] add new line(br) in the commit log</msg>
+    <date>2010-05-26T05:26:47.568539Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3263">
+    <msg>merged from trunk
+
+ * r3258: [#4683] Make sure issue-list-link works in an artifact page; store searching parameters as a cookie.
+</msg>
+    <date>2010-05-26T02:44:23.021871Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3258">
+    <msg>[#4683] Make sure issue-list-link works in an artifact page; store searching parameters as a cookie.
+</msg>
+    <date>2010-05-26T02:27:01.861401Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3257">
+    <msg>[#7577] apply r3256 to trunk</msg>
+    <date>2010-05-25T09:15:00.130195Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3256">
+    <msg>[#7577] remove content id for remove wide space between input forms and button.</msg>
+    <date>2010-05-25T09:13:41.230392Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3255">
+    <msg>[#7573] Add an anchor to tables of monitoring items in mypage. It helps that your webbrowser scrolls the page in order to fit the table.
+</msg>
+    <date>2010-05-25T09:08:37.319822Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3252">
+    <msg>[#7568] expand the width of the paginate.</msg>
+    <date>2010-05-25T07:23:35.780697Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3251">
+    <msg>[#2774] remove an unused variable.
+</msg>
+    <date>2010-05-25T07:14:37.671250Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3248">
+    <msg>[#7556] Apply r3247 to 2.4-stable</msg>
+    <date>2010-05-25T03:03:20.046336Z</date>
+    <author>utumdol</author>
+  </logentry>
+</log>

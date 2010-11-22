@@ -1,0 +1,205 @@
+<?xml version='1.0' standalone='yes'?>
+<log>
+  <logentry revision="4028">
+    <msg>[#10511] Remove or replace with throwing exception, exit_error() in tracker.php.</msg>
+    <date>2010-11-09T10:07:13.959687Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4027">
+    <msg>[#5504] Replace Exception thrown by ArtifactType::fetchData() with DatabaseException and NotFoundException.</msg>
+    <date>2010-11-09T10:03:19.384093Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4026">
+    <msg>[#11170] Use isAllowed() to check anonymous permission, instead of AritfactType::allowsAnon().</msg>
+    <date>2010-11-09T09:12:50.902839Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4025">
+    <msg>[#10511] Replace exit_error() with throwing exception in update_monitor()</msg>
+    <date>2010-11-09T09:01:29.199245Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4024">
+    <msg>merged from trunk/nforge to 3.0-access-control
+
+ * r4023: [#5504] While deleting a member, throw DatabaseException when an error occurs in database and log only when there is no record matched by given $user_id in user_group table.
+</msg>
+    <date>2010-11-09T08:55:32.764289Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4023">
+    <msg>[#5504] While deleting a member, throw DatabaseException when an error occurs in database and log only when there is no record matched by given $user_id in user_group table.</msg>
+    <date>2010-11-09T08:54:56.897631Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4021">
+    <msg>[#10511] Replace exit_error() with throwing exception in post_artifact()</msg>
+    <date>2010-11-09T08:43:25.953018Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4020">
+    <msg>[#5463] Unify some code for generating submenu. The code had been branched by tracker type, and had many duplication lines.</msg>
+    <date>2010-11-09T08:26:14.321738Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4019">
+    <msg>merged from trunk/nforge to 3.0-access-control
+
+ * r4018: [#11851] Change the verion of nforge in trunk from 2.7-dev to 3.0-dev.
+</msg>
+    <date>2010-11-09T08:08:24.309485Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4018">
+    <msg>[#11851] Change the verion of nforge in trunk from 2.7-dev to 3.0-dev.</msg>
+    <date>2010-11-09T08:05:09.773239Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4016">
+    <msg>merged from trunk/nforge to 3.0-access-control
+
+ * r4015: [#12040] Remove unnecessary validations for new Aritfact instance.
+</msg>
+    <date>2010-11-09T07:41:31.774301Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4015">
+    <msg>[#12040] Remove unnecessary validations for new Aritfact instance.</msg>
+    <date>2010-11-09T07:39:01.260909Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4012">
+    <msg>[#11170] Remove tracker_add_comment permission. Currently no one can do that.</msg>
+    <date>2010-11-08T02:41:22.676347Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4010">
+    <msg>[#11176] Remove legacy functions related access control.</msg>
+    <date>2010-11-05T06:50:20.356326Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4009">
+    <msg>[#11825] Add an option to specify sprint.</msg>
+    <date>2010-11-04T10:07:27.780892Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4006">
+    <msg>[#10833] Apply new layout for notification message into user register page.</msg>
+    <date>2010-11-04T09:08:25.687000Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4005">
+    <msg>[#10833] Extract notification template as notification.tpl from Layout.tpl.</msg>
+    <date>2010-11-04T09:05:03.705713Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3994">
+    <msg>merged from trunk/nforge to 3.0-access-control
+
+ * r3993: [#11168] Hide Basic Admin role for Forum in Role Editor beacuse the role is the same as Writer role.</msg>
+    <date>2010-11-02T13:19:27.142740Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3993">
+    <msg>[#11668] Hide Basic Admin role for Forum in Role Editor beacuse the role is the same as Writer role.</msg>
+    <date>2010-11-02T13:18:29.689757Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3990">
+    <msg>[#11171] Add anonymous user checking</msg>
+    <date>2010-11-02T12:25:47.665264Z</date>
+    <author>thegper1</author>
+  </logentry>
+  <logentry revision="3983">
+    <msg>[#11171] Modify the permission check for frs note_read, edit, delete</msg>
+    <date>2010-11-02T08:40:57.108459Z</date>
+    <author>thegper1</author>
+  </logentry>
+  <logentry revision="3980">
+    <msg>[#11171] Fix Checkstyle warning</msg>
+    <date>2010-11-02T03:01:20.021799Z</date>
+    <author>thegper1</author>
+  </logentry>
+  <logentry revision="3979">
+    <msg>[#11169] Add roles for frs</msg>
+    <date>2010-11-01T15:21:31.703735Z</date>
+    <author>thegper1</author>
+  </logentry>
+  <logentry revision="3978">
+    <msg>[#11172] upgrade script for new access control.
+
+[#11173] Acl can convert
+ * legacy role data to new role data
+ * new role data to legacy role data
+And also read both of them from database.
+
+[#11175] Role Editor stores role data in
+ * new Access Control format
+and read role data in both of 
+ * new Access Control format
+ * legacy format</msg>
+    <date>2010-11-01T10:02:41.918385Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3975">
+    <msg>[#11169] Refactor a routine that handles owner&apos;s permission, not via Zend_Acl.</msg>
+    <date>2010-10-29T09:00:06.903400Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3967">
+    <msg>[#11169] Add some comments into Acl class.
+</msg>
+    <date>2010-10-28T12:46:52.344193Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3966">
+    <msg>[#11170] Remove unused is_editable()</msg>
+    <date>2010-10-28T12:08:56.549560Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3963">
+    <msg>[#11170] Remove unused $tracker object added in r3956
+</msg>
+    <date>2010-10-28T11:38:32.333228Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3962">
+    <msg>[#11169] Extract AclTest form UserTest.</msg>
+    <date>2010-10-28T11:21:31.330290Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3940">
+    <msg>[#11169] Fix a comment correctly.
+</msg>
+    <date>2010-10-28T06:34:27.591408Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3916">
+    <msg>[#11169] Fix indentation
+</msg>
+    <date>2010-10-26T02:18:31.662436Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3910">
+    <msg>[#11169] Fix parameter names of Acl::ISAllowed(); swap second and third parameter.
+</msg>
+    <date>2010-10-25T06:35:56.710693Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3864">
+    <msg>[#3796] Apply new notification layout added at r3861 into also naver theme and beaver theme of 2.7-stable.</msg>
+    <date>2010-10-07T08:22:59.084901Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3863">
+    <msg>[#3796] Remove $message_box_is_alert flag to prevent show notifications as alert.</msg>
+    <date>2010-10-07T07:33:25.301023Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3861">
+    <msg>[#3796] Apply new layout for notification messages. Old alert messages will be replaced by this.</msg>
+    <date>2010-10-07T06:31:13.501223Z</date>
+    <author>semtlnori</author>
+  </logentry>
+</log>

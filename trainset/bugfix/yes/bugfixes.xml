@@ -1,0 +1,782 @@
+<?xml version='1.0' standalone='yes'?>
+<log>
+  <logentry revision="4041">
+    <msg>[#12093] Fix a bug that attach button is not displayed below comment box while the artifact is in draft mode; Remove a check whether the user has permission to attach a file or not, because the check fails always and already done corretly when $html_body_attach is created.</msg>
+    <date>2010-11-10T08:09:07.554535Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4040">
+    <msg>[#12092] Fix an error that checkboxes for mass-update are not displayed even if the user has permission on that. And rename the flag to determine whether someone has the permission or not, from $is_editable to $is_massupdateable.</msg>
+    <date>2010-11-10T06:49:36.812910Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4038">
+    <msg>[#11173] Fix a bug that Acl::getLevelFromPermissions returns wrong permission level for project admin; Treat level &apos;A&apos; as higher level than 0.
+</msg>
+    <date>2010-11-10T01:05:50.520115Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4031">
+    <msg>merged from trunk/nforge to 3.0-access-control
+
+ * r4030: [#5504] Replace exception throwing with logging because Mass Update should be continued even if updating one of artifacts is failed.
+</msg>
+    <date>2010-11-09T10:28:47.842766Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4030">
+    <msg>[#5504] Replace exception throwing with logging because Mass Update should be continued even if updating one of artifacts is failed.</msg>
+    <date>2010-11-09T10:28:00.353865Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4029">
+    <msg>[#11170] Fix a failure of ArtifactTest::test_post_artifact(); Make allowing anonymous to write an artifact works correctly.</msg>
+    <date>2010-11-09T10:15:38.445325Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4014">
+    <msg>merged from trunk/nforge to 3.0-access-control
+
+ * r4013: [#12031] When an artifact is removed, remove it also from cache.
+</msg>
+    <date>2010-11-09T07:10:24.068971Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4013">
+    <msg>[#12031] When an artifact is removed, remove it also from cache.</msg>
+    <date>2010-11-09T07:07:46.876748Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4008">
+    <msg>merged notification fixing for user register page, from trunk/nforge to 2.8-stable
+
+ * r4005: [#10833] Extract notification template as notification.tpl from Layout.tpl.
+ * r4006: [#10833] Apply new layout for notification message into user register page.
+</msg>
+    <date>2010-11-04T09:19:19.027207Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4007">
+    <msg>[#11761] Fix a bug that user register page does not display error message when an error occurs.</msg>
+    <date>2010-11-04T09:10:17.325926Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4003">
+    <msg>merged from branch/2.8-stable to nforge
+
+ * r4002: [#2749] Fix interpreter from /usr/bin/php5 to /usr/bin/php. Some systems like fedora does not treat php interpreter as /usr/bin/php5 even if it has PHP5 interperter.
+</msg>
+    <date>2010-11-04T03:33:49.402243Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4002">
+    <msg>[#2749] Fix interpreter from /usr/bin/php5 to /usr/bin/php. Some systems like fedora does not treat php interpreter as /usr/bin/php5 even if it has PHP5 interperter.</msg>
+    <date>2010-11-04T03:33:14.826667Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4001">
+    <msg>merged from branch/2.8-stable to nforge
+
+ * r4000: [#11798] Fix a bug that getDBVersion() returns wrong db version. It has caused to store invalid db version in system_setting table.
+</msg>
+    <date>2010-11-04T03:20:41.763347Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="4000">
+    <msg>[#11798] Fix a bug that getDBVersion() returns wrong db version. It has caused to store invalid db version in system_setting table.</msg>
+    <date>2010-11-04T03:16:50.096725Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3995">
+    <msg>[#9815] check whether the timer opbject is valid or not
+</msg>
+    <date>2010-11-02T16:56:14.890776Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3991">
+    <msg>[#11169] [#11171] Fix a bug that Acl does not recognize a creator of a project as Project Admin; Give Project Admin role to a creator while creating a project.</msg>
+    <date>2010-11-02T13:03:37.073605Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3989">
+    <msg>[#11717] Fix a bug that r3986 does not work.</msg>
+    <date>2010-11-02T12:00:57.382289Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3985">
+    <msg>[#11171] Fix error : call to a get_release_xml func with no  parameter</msg>
+    <date>2010-11-02T09:59:00.997185Z</date>
+    <author>thegper1</author>
+  </logentry>
+  <logentry revision="3981">
+    <msg>[#11173]
+ * Fix a bug that getLevelFromPermissions() returns wrong level if a level exists that has no permission.
+ * Add comments and fix name of some variables for readability.
+</msg>
+    <date>2010-11-02T05:48:38.541038Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3977">
+    <msg>merged from trunk/nforge to 3.0-access-control
+
+ * r3976: [#11483] While deleting tracker, also delete records corresponds to the tracker in role_setting table.
+</msg>
+    <date>2010-10-29T12:04:32.357835Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3976">
+    <msg>[#11483] While deleting tracker, also delete records corresponds to the tracker in role_setting table.</msg>
+    <date>2010-10-29T11:43:14.798801Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3973">
+    <msg>[#11170] Fix a bug that owner can not edit own artifact even if it&apos;s draft.</msg>
+    <date>2010-10-29T07:31:04.649046Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3943">
+    <msg>[#11169] Fix an error when getArtifactTypes() return null
+</msg>
+    <date>2010-10-28T06:56:16.177313Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3931">
+    <msg>[#11374] Fix a error that get_remain_hours_at() returns sum of CURRENT estimated hours of issues opened at given day.</msg>
+    <date>2010-10-28T02:42:18.873250Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3909">
+    <msg>[#11169] Fix invalid unixname of Nobody user in Acl::isAllowed()
+</msg>
+    <date>2010-10-21T07:45:29.602259Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3904">
+    <msg>[#11152] fixed redirect loop error by check the $return_to with &quot;SCRIPT_URI&quot;
+</msg>
+    <date>2010-10-19T21:46:07.616154Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3858">
+    <msg>[#10796] Fix an error that subtracker cannot be shown; fix wrong name of a variable.</msg>
+    <date>2010-10-06T09:46:34.952177Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3857">
+    <msg>[#10790] Fix an error wrong parameter passing for exception when edit an artifact.</msg>
+    <date>2010-10-06T09:24:13.106172Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3856">
+    <msg>[#10788] Fix update monitor error. -&gt;at</msg>
+    <date>2010-10-06T09:04:53.166958Z</date>
+    <author>thegper1</author>
+  </logentry>
+  <logentry revision="3854">
+    <msg>[#10785] Fix exception when adding new milestone; ArtifactExtraField::select() throw NotFoundException if there is no item matched given id and field name, and the caller catch the exception and add new milestone.</msg>
+    <date>2010-10-06T08:29:38.636309Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3853">
+    <msg>[#10776] Fix undefined GroupException error; add GroupException class.</msg>
+    <date>2010-10-06T06:13:17.929513Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3847">
+    <msg>merged from 2.7-stable
+ * r3845 [#10762] Fix access denied error when upload project logo with IE; Make input element wider for user to click the element instead of upload button.</msg>
+    <date>2010-10-06T02:55:27.075982Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3846">
+    <msg>merged from 2.7-stable
+ * r3842 [#10738] Fix a bug that upload button for project logo does not work; raise z-index of file element</msg>
+    <date>2010-10-06T02:54:41.362694Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3845">
+    <msg>[#10762] Fix access denied error when upload project logo with IE; Make input element wider for user to click the element instead of upload button.
+</msg>
+    <date>2010-10-06T02:43:16.804570Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3842">
+    <msg>[#10738] Fix a bug that upload button for project logo does not work; raise z-index of file element
+</msg>
+    <date>2010-10-05T10:04:37.825925Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3805">
+    <msg>[#10445] Fix an error when setting date options; replace Date with Time for compatibility</msg>
+    <date>2010-09-28T06:54:07.378601Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3804">
+    <msg>[#10445] Fix NoMethods error when estimated_hours field is empty.</msg>
+    <date>2010-09-28T05:28:33.981883Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3791">
+    <msg>[#10176] Fix the javascript to detect IE6. It had not work, therefore, file uploading has been failed in IE6.</msg>
+    <date>2010-09-17T10:09:27.927704Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3782">
+    <msg>[#9440] Fix loss of history when parsing a issue has patch_html.</msg>
+    <date>2010-09-17T03:04:37.830261Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3779">
+    <msg>[#5504] Fix default exception handler; the first paramter should be title not message.</msg>
+    <date>2010-09-16T07:51:15.024245Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3764">
+    <msg>[#9440] Fix a TypeError of parse_issue_history when parsing a artifact that has only 1 comment.</msg>
+    <date>2010-09-15T02:19:25.815826Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3710">
+    <msg>merged to 2.6.2-stable from trunk
+
+ * r3707: [#9570] Fix the request handler of project admin to make it work properly under beaver theme.
+</msg>
+    <date>2010-08-27T09:09:19.124212Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3707">
+    <msg>[#9570] Fix the request handler of project admin to make it work properly under beaver theme.</msg>
+    <date>2010-08-27T06:59:45.560416Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3706">
+    <msg>[#9642] Fix invalid input element name; survey -&gt; use_survey</msg>
+    <date>2010-08-27T06:53:03.803306Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3697">
+    <msg>[#9570] Fix a regression error that the right border of button is disappeared.
+</msg>
+    <date>2010-08-23T13:13:08.336653Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3656">
+    <msg>[#8597] Fix the url of background image for gnb tab in site main.
+</msg>
+    <date>2010-08-06T09:24:06.263118Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3648">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3647: [#8768] Fix a bug that sorting by last_modified_date does not work; Remove default sorting condition in get_search_query(). It is unused and causes a trouble.
+</msg>
+    <date>2010-08-02T09:10:02.311480Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3647">
+    <msg>[#8768] Fix a bug that sorting by last_modified_date does not work; Remove default sorting condition in get_search_query(). It is unused and causes a trouble.</msg>
+    <date>2010-08-02T09:09:17.042038Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3636">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3634: [#9076] Fix a PHP error when accessing site main without session.
+</msg>
+    <date>2010-07-28T08:19:26.952874Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3634">
+    <msg>[#9076] Fix a PHP error when accessing site main without session.
+</msg>
+    <date>2010-07-28T07:56:32.465031Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3631">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3630: [#9076] Fix permission denied warning in site main; replace Permission::isAdmin() with is_site_admin().
+</msg>
+    <date>2010-07-28T02:20:36.717709Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3630">
+    <msg>[#9076] Fix permission denied warning in site main; replace Permission::isAdmin() with is_site_admin().</msg>
+    <date>2010-07-28T02:17:54.888045Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3613">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3602: [#9053] Fix permission denied warning on mypage; Add function to check the user has site admin privilege.
+</msg>
+    <date>2010-07-27T02:33:54.981868Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3612">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3595: [#9044] Fix a javascript error when uploading two or more files; replace \n with \\n beacuse javascript does not support multi-line string literals.
+</msg>
+    <date>2010-07-27T02:33:31.452752Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3610">
+    <msg>merged to 2.6-stable from trunk
+
+ * r3590: [#9004] Fix an operation aborted error when editing wikipage; make addRow() runs after page loading is done.
+ * r3591: [#9004] Remove test code added at r3590.
+</msg>
+    <date>2010-07-27T02:31:12.129563Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3602">
+    <msg>[#9053] Fix permission denied warning on mypage; Add function to check the user has site admin privilege.</msg>
+    <date>2010-07-26T12:45:40.584015Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3598">
+    <msg>[#8879] try to fix IE7 problem with the trove_list
+</msg>
+    <date>2010-07-26T11:44:22.218319Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3595">
+    <msg>[#9044] Fix a javascript error when uploading two or more files; replace \n with \\n beacuse javascript does not support multi-line string literals.
+</msg>
+    <date>2010-07-26T09:40:27.085504Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3590">
+    <msg>[#9004] Fix an operation aborted error when editing wikipage; make addRow() runs after page loading is done.</msg>
+    <date>2010-07-26T02:49:41.177148Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3581">
+    <msg>[#8597] Fix a warning of news_list_lastest(); set default value for $total_count parameter.</msg>
+    <date>2010-07-22T12:46:18.873023Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3580">
+    <msg>[#8597] Some UI fixes for listing and heading of wiki</msg>
+    <date>2010-07-22T12:36:17.944860Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3579">
+    <msg>[#8597] Fix wrong truncation of main navigation tab.
+</msg>
+    <date>2010-07-22T12:00:32.010925Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3569">
+    <msg>[#8941] Fix ActionTest::testDoProjects failure; restore $sys_urlprefix at the end of test_normalized_urlprefix().</msg>
+    <date>2010-07-21T05:24:14.320216Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3567">
+    <msg>[#8941] Add a test for normalized_urlprefix().</msg>
+    <date>2010-07-21T04:56:28.805327Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3564">
+    <msg>[#8071] Fix ActionTest::testDoProjects failure; set $_SERVER[&apos;PATH_INFO&apos;] as &apos;/&apos; instead of &apos;&apos; when browsing root of source repository.
+</msg>
+    <date>2010-07-20T09:17:14.409016Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3558">
+    <msg>[#8850] Fix project image and link for news and ranking.</msg>
+    <date>2010-07-19T02:17:11.936561Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3556">
+    <msg>[#8138] fixed invalid use of preg_split() in the r3508
+</msg>
+    <date>2010-07-18T13:03:18.611467Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3553">
+    <msg>[#8850] misc fix for IE8
+</msg>
+    <date>2010-07-16T17:22:59.361357Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3548">
+    <msg>[#8850] fixup #footer
+</msg>
+    <date>2010-07-16T15:10:58.094426Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3539">
+    <msg>[#8850] fixed unclickable navigation menu in the IE.
+</msg>
+    <date>2010-07-16T02:49:37.875896Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3533">
+    <msg>[#6770] use $sys_urlprefix correctly
+</msg>
+    <date>2010-07-15T10:11:58.390298Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3528">
+    <msg>[#5892] Add convmv package in installing packages &amp; fixing libnss-pgsql2 problem on Ubuntu 10.04</msg>
+    <date>2010-07-15T08:52:45.525529Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3510">
+    <msg>[#8802] Fix javascript error when a non logged-in user access tracker page.
+</msg>
+    <date>2010-07-14T01:06:33.723525Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3505">
+    <msg>[#8671] fixed notice warning.
+</msg>
+    <date>2010-07-09T10:42:43.819718Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3504">
+    <msg>[#8671] fixed notice warning
+</msg>
+    <date>2010-07-09T10:14:06.304428Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3503">
+    <msg>merged to 2.5-stable from trunk
+
+ * r3501: [#8684] Fix invalid counting of comments.
+ * r3502: [#8684] Add a test for counting of comments.
+</msg>
+    <date>2010-07-09T06:55:43.701978Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3501">
+    <msg>[#8684] Fix invalid counting of comments.</msg>
+    <date>2010-07-09T06:06:03.028660Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3498">
+    <msg>[#8420] add a missing quote to fix last change r3497
+</msg>
+    <date>2010-07-09T01:32:30.488443Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3493">
+    <msg>[#8654] Fix a failure of routing test.</msg>
+    <date>2010-07-08T08:00:06.143800Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3489">
+    <msg>[#5624] fix the index for monitoring flag on release. It has changed at r3076.
+</msg>
+    <date>2010-07-08T04:51:26.732871Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3488">
+    <msg>[#8629] Fix redeclared error in AllTests.</msg>
+    <date>2010-07-08T04:48:52.040574Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3485">
+    <msg>[#8485] Fix unittest failures; These caused by changes of function headers from r3480.
+</msg>
+    <date>2010-07-08T04:33:40.623841Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3484">
+    <msg>[#8485] Fix unittest failures; These caused by changes of function headers from r3480.</msg>
+    <date>2010-07-08T02:32:52.601682Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3477">
+    <msg>[#5624] fix the index for monitoring flag on release. It has changed at r3076.
+</msg>
+    <date>2010-07-07T10:01:51.089622Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3475">
+    <msg>[#8346] Fix invalid link of url likes /projects/project-name/releases/123. It must link to release note page, not downloading page.
+</msg>
+    <date>2010-07-07T06:03:53.317524Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3474">
+    <msg>[#8569] fix the padding of the issue status.
+use white-space:nowrap; and min-width for the priority th. to show the table header of priority correctly
+</msg>
+    <date>2010-07-06T22:51:42.111796Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3473">
+    <msg>[#6770] set selected css class correctly with $sys_urlprefix
+</msg>
+    <date>2010-07-06T22:39:41.799521Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3469">
+    <msg>[#8405] Fix the failure of ArtifactTypeSmartyTest.test_process_search_query</msg>
+    <date>2010-07-06T06:58:45.756158Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3461">
+    <msg>[#8488] xhtml fix
+</msg>
+    <date>2010-07-03T13:45:54.577659Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3452">
+    <msg>merged from trunk
+
+ * r3451: [#8413] Fix database error occured when _assigned_to or _submitted_by parameter has empty value.
+</msg>
+    <date>2010-06-29T09:52:47.108274Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3451">
+    <msg>[#8413] Fix database error occured when _assigned_to or _submitted_by parameter has empty value.
+</msg>
+    <date>2010-06-29T09:52:20.446380Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3445">
+    <msg>merged from trunk
+
+ * r3443: [#7641] Fix notice setting failure in mass-update pannel
+</msg>
+    <date>2010-06-29T07:03:15.847063Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3443">
+    <msg>[#7641] Fix notice setting failure in mass-update pannel</msg>
+    <date>2010-06-29T06:38:07.183160Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3442">
+    <msg>merged from trunk
+
+ * r3441: [#8399] Fix invalid display of submenus for trackers after an artifact is moved from issue to forum; use is_forum() instead of $is_forum.
+</msg>
+    <date>2010-06-29T05:44:49.090916Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3441">
+    <msg>[#8399] Fix invalid display of submenus for trackers after an artifact is moved from issue to forum; use is_forum() instead of $is_forum.
+</msg>
+    <date>2010-06-29T05:43:42.085505Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3429">
+    <msg>merged from trunk
+
+ * r3418: [#8342] A session is required to do some stuff about search query.
+ * r3421: [#8342] Fix a bug that session is always required even in artifact list page.
+</msg>
+    <date>2010-06-28T09:45:01.299366Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3428">
+    <msg>[#8354] There is same problem in the download list page. Fix it.</msg>
+    <date>2010-06-28T09:44:51.547642Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3423">
+    <msg>[#8354] If no login user approaches the milestone page, there is an error message about permission. Fix it.</msg>
+    <date>2010-06-28T09:04:31.462895Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3421">
+    <msg>[#8342] Fix a bug that session is always required even in artifact list page.
+</msg>
+    <date>2010-06-28T07:40:42.762581Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3419">
+    <msg>[#8351] Fix wrong link on reorder button for releases</msg>
+    <date>2010-06-28T07:24:11.851591Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3415">
+    <msg>[#7641] Fix undefined $datatype warning when show other page of artifact list after mass-update.
+</msg>
+    <date>2010-06-25T08:39:48.116987Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3413">
+    <msg>merged from trunk
+
+ * r3412: [#7218] Fix invalid parameter when calling util_make_link_u() in project_etc.php
+</msg>
+    <date>2010-06-25T07:19:01.001112Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3412">
+    <msg>[#7218] Fix invalid parameter when calling util_make_link_u() in project_etc.php
+</msg>
+    <date>2010-06-25T07:17:55.463953Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3401">
+    <msg>merged r3400 [#7310] fix r3383 to apply fix_webkit() only for the Safari.
+</msg>
+    <date>2010-06-23T08:58:26.378487Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3400">
+    <msg>[#7310] fix r3383 to apply fix_webkit() only for the Safari.
+</msg>
+    <date>2010-06-23T08:36:19.879347Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3388">
+    <msg>[#8162] fixed textarea resizer bug for chrome/safari
+</msg>
+    <date>2010-06-19T06:00:51.319371Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3383">
+    <msg>[#7310] use javascript to fix the button margin bug of the old webkit.
+</msg>
+    <date>2010-06-18T09:16:33.703803Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3376">
+    <msg>[#7699] fix to support $sys_urlprefix
+</msg>
+    <date>2010-06-17T03:39:59.097870Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3374">
+    <msg>[#7743] fixed notice warning
+</msg>
+    <date>2010-06-16T16:47:14.993368Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3372">
+    <msg>[#7310] fixing a button-breaking problem with Chrome browser</msg>
+    <date>2010-06-16T09:39:48.417025Z</date>
+    <author>froguin3</author>
+  </logentry>
+  <logentry revision="3371">
+    <msg>[#6818] Fix communication error when reading an artifact, under cubrid; Free the query result in user_get_object_by_name()
+</msg>
+    <date>2010-06-16T08:19:09.047748Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3370">
+    <msg>[#7641] Fix a bug that the checkbox to select all artifacts does not work in IE6.
+</msg>
+    <date>2010-06-15T09:13:29.238635Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3369">
+    <msg>[#7641] Fix a bug that mass-update pannel is overtopped in IE6.</msg>
+    <date>2010-06-15T08:49:32.659688Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3341">
+    <msg>[#7641] Fix ArtifactTest::test_mass_update failure; Match the caller with new declaration.</msg>
+    <date>2010-06-10T01:17:13.376508Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3336">
+    <msg>[#2017] fixed short open tags
+</msg>
+    <date>2010-06-09T05:51:13.917393Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3333">
+    <msg>[#7699] fixed the view.tpl filename.
+</msg>
+    <date>2010-06-09T05:32:08.411583Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3324">
+    <msg>[#7331] Fix a bug that selected item is not highlighted
+</msg>
+    <date>2010-06-08T03:15:46.994978Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3289">
+    <msg>merged from trunk
+
+ * r3287: [#6738] [#7218] Fix an undefined method error
+</msg>
+    <date>2010-05-31T01:17:24.224730Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3287">
+    <msg>[#6738] [#7218] Fix an undefined method error</msg>
+    <date>2010-05-31T01:10:52.416525Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3286">
+    <msg>[#5109] r2602 - check $query[&apos;brow&apos;] validity to fix notice warning
+</msg>
+    <date>2010-05-28T10:33:28.023213Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3279">
+    <msg>[#5489] Fix the updated failed exception of ArtifactTest::test_update_artifact; The exception can be raised if there is no change. Sleep 1 sec in order to make sure last_modified_date is updated.</msg>
+    <date>2010-05-27T08:42:43.123374Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3278">
+    <msg>[#5489] Fix an error of ArtifactTest::test_update_artifact; set missing testing parameters</msg>
+    <date>2010-05-27T08:37:02.153686Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3277">
+    <msg>{#5022] Fix undefined constant errors in tracker related testcases; define ARTIFACT_CLASS</msg>
+    <date>2010-05-27T08:05:10.136048Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3273">
+    <msg>[#4683] Fix an error &apos;Undefined variable: query_array&apos; in some tests of ArtifactTest
+</msg>
+    <date>2010-05-27T02:18:22.709778Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3261">
+    <msg>merged from trunk
+
+ * r3253: [#5316] Fix an error when reading an artifact from old-style link likes &apos;/tracker/?aid=1234&apos;, and remove the dependency on $pathinfo
+</msg>
+    <date>2010-05-26T02:43:46.279649Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3254">
+    <msg>[#7573] Fix a bug that anchors do not work in IE6 and IE7.</msg>
+    <date>2010-05-25T08:36:37.416533Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3253">
+    <msg>[#5316] Fix an error when reading an artifact from old-style link likes &apos;/tracker/?aid=1234&apos;, and remove the dependency on $pathinfo
+</msg>
+    <date>2010-05-25T07:40:00.831029Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3250">
+    <msg>[#7567] Fix unintended uploading when changing the order of files in a release.</msg>
+    <date>2010-05-25T06:47:30.296526Z</date>
+    <author>semtlnori</author>
+  </logentry>
+  <logentry revision="3247">
+    <msg>[#7556] fix noname commiters name link.</msg>
+    <date>2010-05-25T02:41:09.854990Z</date>
+    <author>utumdol</author>
+  </logentry>
+  <logentry revision="3246">
+    <msg>[#5022] [#7515] backward compatibility fix
+</msg>
+    <date>2010-05-21T05:03:03.036641Z</date>
+    <author>bird1909</author>
+  </logentry>
+  <logentry revision="3244">
+    <msg>[#5022] [#7515] fix for backward compatibility to work with the nforge-dev theme.
+</msg>
+    <date>2010-05-20T17:19:29.848276Z</date>
+    <author>bird1909</author>
+  </logentry>
+</log>
